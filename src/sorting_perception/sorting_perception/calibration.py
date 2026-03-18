@@ -24,13 +24,12 @@ class CalibrationPerceptionNode(Node):
         self.min_area = 80
         self.has_printed = False
 
-        # 这里一定要改成你“当前”4个参考块的真实世界坐标
-        # 顺序：左上、右上、右下、左下
+
         self.world_points = np.array([
-            [0.48, 0.14],   # 左上
-            [0.48, -0.14],   # 右上
-            [0.42, -0.14],   # 右下
-            [0.42, 0.14],   # 左下
+            [0.48, 0.14],  
+            [0.48, -0.14],   
+            [0.42, -0.14],  
+            [0.42, 0.14],   
         ], dtype=np.float32)
 
         self.get_logger().info('Calibration perception node started. Waiting for /grab_camera ...')
@@ -75,13 +74,11 @@ class CalibrationPerceptionNode(Node):
     def detect_four_blocks(self, frame):
         hsv = cv2.cvtColor(frame, cv2.COLOR_BGR2HSV)
 
-        # 红色
         lower_red_1 = np.array([0, 70, 50], dtype=np.uint8)
         upper_red_1 = np.array([15, 255, 255], dtype=np.uint8)
         lower_red_2 = np.array([165, 70, 50], dtype=np.uint8)
         upper_red_2 = np.array([180, 255, 255], dtype=np.uint8)
 
-        # 蓝色
         lower_blue = np.array([100, 80, 50], dtype=np.uint8)
         upper_blue = np.array([130, 255, 255], dtype=np.uint8)
 
@@ -133,7 +130,6 @@ class CalibrationPerceptionNode(Node):
                 )
             return None, debug_img
 
-        # 按 v 排序，分成上下两排
         candidates.sort(key=lambda t: t[1])
         top_two = sorted(candidates[:2], key=lambda t: t[0])
         bottom_two = sorted(candidates[2:], key=lambda t: t[0])

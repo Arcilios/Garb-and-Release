@@ -1,0 +1,24 @@
+# ROS 2 workspace
+build/
+install/
+log/
+
+# Python
+__pycache__/
+*.pyc
+
+# LaTeX
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db

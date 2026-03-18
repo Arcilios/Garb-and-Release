@@ -93,7 +93,7 @@ class RealPerceptionNode(Node):
 
         detections = []
 
-        # -------- 红色 mask --------
+        # -------- Red mask --------
         lower_red_1 = np.array([0, 70, 50], dtype=np.uint8)
         upper_red_1 = np.array([15, 255, 255], dtype=np.uint8)
         lower_red_2 = np.array([165, 70, 50], dtype=np.uint8)
@@ -103,7 +103,7 @@ class RealPerceptionNode(Node):
         red_mask2 = cv2.inRange(hsv, lower_red_2, upper_red_2)
         red_mask = cv2.bitwise_or(red_mask1, red_mask2)
 
-        # -------- 蓝色 mask --------
+        # -------- Blue mask --------
         lower_blue = np.array([100, 80, 50], dtype=np.uint8)
         upper_blue = np.array([130, 255, 255], dtype=np.uint8)
         blue_mask = cv2.inRange(hsv, lower_blue, upper_blue)

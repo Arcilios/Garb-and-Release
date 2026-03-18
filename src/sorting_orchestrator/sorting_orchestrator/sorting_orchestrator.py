@@ -25,12 +25,10 @@ class SortingOrchestratorNode(Node):
         self.cooldown_sec = 8.0
         self.last_task_time = None
 
-        # 更保守的抓取高度
         self.pregrasp_z = 0.75
         self.pick_z = 0.71
         self.lift_z = 0.85
 
-        # ready pose
         self.ready_x = 0.45
         self.ready_y = 0.00
         self.ready_z = 0.90
@@ -78,7 +76,6 @@ class SortingOrchestratorNode(Node):
         raw_x = obj.pose.pose.position.x
         raw_y = obj.pose.pose.position.y
 
-        # 不再硬裁剪到很小盒子，避免永远够不到
         cube_x = raw_x
         cube_y = raw_y + 0.01
 
@@ -105,7 +102,6 @@ class SortingOrchestratorNode(Node):
         else:
             task.place_pose = self.make_pose(0.46, 0.12, 0.92)
 
-        # 这个字段仍然保留，但 executor 最后会直接回 named config 'ready'
         task.retreat_pose = self.make_pose(self.ready_x, self.ready_y, self.ready_z)
 
         self.task_pub.publish(task)
