@@ -48,7 +48,6 @@ class SortingExecutorNode(Node):
             callback_group=self.cb_group
         )
 
-        # TF: 读取初始末端位姿
         self.tf_buffer = Buffer()
         self.tf_listener = TransformListener(self.tf_buffer, self, spin_thread=True)
 
