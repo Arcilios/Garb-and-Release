@@ -129,7 +129,7 @@ Typical workflow:
 
 ```bash
 # source ROS 2
-source /opt/ros/jazzy/setup.bash
+source "$ROS_DISTRO_SETUP_BASH"
 
 # source workspace
 source install/setup.bash

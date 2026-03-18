@@ -4,6 +4,7 @@ from rclpy.node import Node
 import cv2
 import numpy as np
 from cv_bridge import CvBridge
+from pathlib import Path
 
 from sensor_msgs.msg import Image
 
@@ -23,6 +24,9 @@ class CalibrationPerceptionNode(Node):
 
         self.min_area = 80
         self.has_printed = False
+        self.debug_dir = Path('debug')
+        self.debug_dir.mkdir(parents=True, exist_ok=True)
+        self.debug_image_path = self.debug_dir / 'calibration_debug.png'
 
 
         self.world_points = np.array([
@@ -44,7 +48,7 @@ class CalibrationPerceptionNode(Node):
 
         centers, debug_img = self.detect_four_blocks(frame)
 
-        cv2.imwrite('/tmp/calibration_debug.png', debug_img)
+        cv2.imwrite(str(self.debug_image_path), debug_img)
 
         if centers is None:
             self.get_logger().info('Did not detect exactly 4 valid reference blocks.')
@@ -56,7 +60,7 @@ class CalibrationPerceptionNode(Node):
         self.get_logger().info(f'image_points = np.array({image_points.tolist()}, dtype=np.float32)')
         self.get_logger().info(f'world_points = np.array({self.world_points.tolist()}, dtype=np.float32)')
         self.get_logger().info('Order: top-left, top-right, bottom-right, bottom-left')
-        self.get_logger().info('Saved debug image to /tmp/calibration_debug.png')
+        self.get_logger().info(f'Saved debug image to {self.debug_image_path}')
 
         if not self.has_printed:
             print('\nimage_points = np.array([')

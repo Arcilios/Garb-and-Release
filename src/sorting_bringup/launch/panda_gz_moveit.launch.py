@@ -13,9 +13,10 @@ from moveit_configs_utils import MoveItConfigsBuilder
 def generate_launch_description():
     ros_gz_sim_pkg = get_package_share_directory("ros_gz_sim")
     sorting_bringup_pkg = get_package_share_directory("sorting_bringup")
+    sorting_gazebo_pkg = get_package_share_directory("sorting_gazebo")
     panda_moveit_pkg = get_package_share_directory("moveit_resources_panda_moveit_config")
 
-    world_file = "/home/rcli/ws_sorting_final/src/sorting_gazebo/worlds/sorting_minimal.sdf"
+    world_file = os.path.join(sorting_gazebo_pkg, "worlds", "sorting_minimal.sdf")
     panda_xacro = os.path.join(sorting_bringup_pkg, "urdf", "panda_gz.urdf.xacro")
 
     robot_description_xml = xacro.process_file(panda_xacro).toxml()

@@ -1,6 +1,6 @@
 import cv2
 
-img = cv2.imread('/tmp/perception_debug.png')
+img = cv2.imread('debug/perception_debug.png')
 
 points = []
 

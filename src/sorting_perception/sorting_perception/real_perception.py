@@ -4,6 +4,7 @@ from rclpy.node import Node
 import cv2
 import numpy as np
 from cv_bridge import CvBridge
+from pathlib import Path
 
 from sensor_msgs.msg import Image
 from std_msgs.msg import Header
@@ -32,6 +33,9 @@ class RealPerceptionNode(Node):
         )
 
         self.min_area = 120
+        self.debug_dir = Path('debug')
+        self.debug_dir.mkdir(parents=True, exist_ok=True)
+        self.debug_image_path = self.debug_dir / 'perception_debug.png'
 
         self.image_points = np.array([
             [162.0, 127.0],   # TL
@@ -63,7 +67,7 @@ class RealPerceptionNode(Node):
 
         detected_objects, debug_frame = self.detect_objects(frame, msg.header)
 
-        cv2.imwrite('/tmp/perception_debug.png', debug_frame)
+        cv2.imwrite(str(self.debug_image_path), debug_frame)
         cv2.imshow("camera_debug", debug_frame)
         cv2.waitKey(1)
 

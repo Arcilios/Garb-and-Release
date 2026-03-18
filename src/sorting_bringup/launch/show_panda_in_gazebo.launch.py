@@ -10,7 +10,12 @@ import xacro
 
 
 def generate_launch_description():
-    sorting_gazebo_world = "/home/rcli/ws_sorting_final/src/sorting_gazebo/worlds/sorting_minimal.sdf"
+    sorting_gazebo_pkg = get_package_share_directory("sorting_gazebo")
+    sorting_gazebo_world = os.path.join(
+        sorting_gazebo_pkg,
+        "worlds",
+        "sorting_minimal.sdf",
+    )
 
     ros_gz_sim_pkg = get_package_share_directory("ros_gz_sim")
     panda_desc_pkg = get_package_share_directory("moveit_resources_panda_description")
