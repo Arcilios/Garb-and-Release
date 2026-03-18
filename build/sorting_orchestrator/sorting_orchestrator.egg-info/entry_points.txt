@@ -1,2 +1,0 @@
-[console_scripts]
-sorting_orchestrator = sorting_orchestrator.sorting_orchestrator:main

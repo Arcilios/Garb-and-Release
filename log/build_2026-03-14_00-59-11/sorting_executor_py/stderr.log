@@ -1,5 +1,0 @@
-  File "/home/rcli/ws_sorting_final/install/sorting_executor_py/lib/python3.12/site-packages/sorting_executor_py/sorting_executor.py", line 75
-    return pose
-    ^^^^^^^^^^^
-SyntaxError: 'return' outside function
-

@@ -1,6 +1,0 @@
-source;share/sorting_scene/hook/pythonpath.ps1
-source;share/sorting_scene/hook/pythonpath.dsv
-source;share/sorting_scene/hook/pythonpath.sh
-source;share/sorting_scene/hook/ament_prefix_path.ps1
-source;share/sorting_scene/hook/ament_prefix_path.dsv
-source;share/sorting_scene/hook/ament_prefix_path.sh

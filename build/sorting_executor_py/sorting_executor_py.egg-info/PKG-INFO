@@ -1,8 +1,0 @@
-Metadata-Version: 2.1
-Name: sorting-executor-py
-Version: 0.0.0
-Summary: Python executor for sorting project
-Maintainer: rcli
-Maintainer-email: rul039@ucsd.edu
-License: Apache-2.0
-License-File: LICENSE
