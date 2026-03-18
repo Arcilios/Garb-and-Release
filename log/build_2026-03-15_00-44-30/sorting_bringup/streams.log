@@ -1,0 +1,21 @@
+[0.833s] Invoking command in '/home/rcli/ws_sorting_final/src/sorting_bringup': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/rcli/ws_sorting_final/build/sorting_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rcli/ws_sorting_final/install/sorting_bringup/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sorting_bringup build --build-base /home/rcli/ws_sorting_final/build/sorting_bringup/build install --record /home/rcli/ws_sorting_final/build/sorting_bringup/install.log --single-version-externally-managed install_data
+[1.007s] running egg_info
+[1.020s] writing ../../build/sorting_bringup/sorting_bringup.egg-info/PKG-INFO
+[1.020s] writing dependency_links to ../../build/sorting_bringup/sorting_bringup.egg-info/dependency_links.txt
+[1.020s] writing requirements to ../../build/sorting_bringup/sorting_bringup.egg-info/requires.txt
+[1.020s] writing top-level names to ../../build/sorting_bringup/sorting_bringup.egg-info/top_level.txt
+[1.045s] reading manifest file '../../build/sorting_bringup/sorting_bringup.egg-info/SOURCES.txt'
+[1.045s] adding license file 'LICENSE'
+[1.045s] writing manifest file '../../build/sorting_bringup/sorting_bringup.egg-info/SOURCES.txt'
+[1.045s] running build
+[1.045s] running build_py
+[1.045s] running install
+[1.050s] running install_lib
+[1.063s] running install_data
+[1.063s] copying launch/panda_gz_moveit.launch.py -> /home/rcli/ws_sorting_final/install/sorting_bringup/share/sorting_bringup/launch
+[1.063s] running install_egg_info
+[1.076s] removing '/home/rcli/ws_sorting_final/install/sorting_bringup/lib/python3.12/site-packages/sorting_bringup-0.0.0-py3.12.egg-info' (and everything under it)
+[1.077s] Copying ../../build/sorting_bringup/sorting_bringup.egg-info to /home/rcli/ws_sorting_final/install/sorting_bringup/lib/python3.12/site-packages/sorting_bringup-0.0.0-py3.12.egg-info
+[1.077s] running install_scripts
+[1.162s] writing list of installed files to '/home/rcli/ws_sorting_final/build/sorting_bringup/install.log'
+[1.181s] Invoked command in '/home/rcli/ws_sorting_final/src/sorting_bringup' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/rcli/ws_sorting_final/build/sorting_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rcli/ws_sorting_final/install/sorting_bringup/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sorting_bringup build --build-base /home/rcli/ws_sorting_final/build/sorting_bringup/build install --record /home/rcli/ws_sorting_final/build/sorting_bringup/install.log --single-version-externally-managed install_data

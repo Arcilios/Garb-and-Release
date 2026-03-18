@@ -1,0 +1,471 @@
+[0.106s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.106s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=24, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7a8445a76750>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7a8445a75bb0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7a8445a75bb0>>)
+[0.129s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.129s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.129s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.130s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.130s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.130s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.130s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/rcli/ws_sorting_final'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/sorting_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/sorting_bringup) by extension 'ignore'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/sorting_bringup) by extension 'ignore_ament_install'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/sorting_bringup) by extensions ['colcon_pkg']
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/sorting_bringup) by extension 'colcon_pkg'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/sorting_bringup) by extensions ['colcon_meta']
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/sorting_bringup) by extension 'colcon_meta'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/sorting_bringup) by extensions ['ros']
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/sorting_bringup) by extension 'ros'
+[0.150s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sorting_bringup' with type 'ros.ament_python' and name 'sorting_bringup'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/sorting_executor_py) by extensions ['ignore', 'ignore_ament_install']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/sorting_executor_py) by extension 'ignore'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/sorting_executor_py) by extension 'ignore_ament_install'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/sorting_executor_py) by extensions ['colcon_pkg']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/sorting_executor_py) by extension 'colcon_pkg'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/sorting_executor_py) by extensions ['colcon_meta']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/sorting_executor_py) by extension 'colcon_meta'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/sorting_executor_py) by extensions ['ros']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/sorting_executor_py) by extension 'ros'
+[0.150s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sorting_executor_py' with type 'ros.ament_python' and name 'sorting_executor_py'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/sorting_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/sorting_gazebo) by extension 'ignore'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/sorting_gazebo) by extension 'ignore_ament_install'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/sorting_gazebo) by extensions ['colcon_pkg']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/sorting_gazebo) by extension 'colcon_pkg'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/sorting_gazebo) by extensions ['colcon_meta']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/sorting_gazebo) by extension 'colcon_meta'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/sorting_gazebo) by extensions ['ros']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/sorting_gazebo) by extension 'ros'
+[0.151s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sorting_gazebo' with type 'ros.ament_python' and name 'sorting_gazebo'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/sorting_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/sorting_interfaces) by extension 'ignore'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/sorting_interfaces) by extension 'ignore_ament_install'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/sorting_interfaces) by extensions ['colcon_pkg']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/sorting_interfaces) by extension 'colcon_pkg'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/sorting_interfaces) by extensions ['colcon_meta']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/sorting_interfaces) by extension 'colcon_meta'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/sorting_interfaces) by extensions ['ros']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/sorting_interfaces) by extension 'ros'
+[0.151s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sorting_interfaces' with type 'ros.ament_cmake' and name 'sorting_interfaces'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/sorting_orchestrator) by extensions ['ignore', 'ignore_ament_install']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/sorting_orchestrator) by extension 'ignore'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/sorting_orchestrator) by extension 'ignore_ament_install'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/sorting_orchestrator) by extensions ['colcon_pkg']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/sorting_orchestrator) by extension 'colcon_pkg'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/sorting_orchestrator) by extensions ['colcon_meta']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/sorting_orchestrator) by extension 'colcon_meta'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/sorting_orchestrator) by extensions ['ros']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/sorting_orchestrator) by extension 'ros'
+[0.152s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sorting_orchestrator' with type 'ros.ament_python' and name 'sorting_orchestrator'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/sorting_perception) by extensions ['ignore', 'ignore_ament_install']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/sorting_perception) by extension 'ignore'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/sorting_perception) by extension 'ignore_ament_install'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/sorting_perception) by extensions ['colcon_pkg']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/sorting_perception) by extension 'colcon_pkg'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/sorting_perception) by extensions ['colcon_meta']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/sorting_perception) by extension 'colcon_meta'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/sorting_perception) by extensions ['ros']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/sorting_perception) by extension 'ros'
+[0.152s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sorting_perception' with type 'ros.ament_python' and name 'sorting_perception'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/sorting_scene) by extensions ['ignore', 'ignore_ament_install']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/sorting_scene) by extension 'ignore'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/sorting_scene) by extension 'ignore_ament_install'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/sorting_scene) by extensions ['colcon_pkg']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/sorting_scene) by extension 'colcon_pkg'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/sorting_scene) by extensions ['colcon_meta']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/sorting_scene) by extension 'colcon_meta'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/sorting_scene) by extensions ['ros']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/sorting_scene) by extension 'ros'
+[0.153s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sorting_scene' with type 'ros.ament_python' and name 'sorting_scene'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(temp_code) by extensions ['ignore', 'ignore_ament_install']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(temp_code) by extension 'ignore'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(temp_code) by extension 'ignore_ament_install'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(temp_code) by extensions ['colcon_pkg']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(temp_code) by extension 'colcon_pkg'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(temp_code) by extensions ['colcon_meta']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(temp_code) by extension 'colcon_meta'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(temp_code) by extensions ['ros']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(temp_code) by extension 'ros'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(temp_code) by extensions ['cmake', 'python']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(temp_code) by extension 'cmake'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(temp_code) by extension 'python'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(temp_code) by extensions ['python_setup_py']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(temp_code) by extension 'python_setup_py'
+[0.153s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.153s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.153s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.153s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.153s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.166s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.166s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.168s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 7 installed packages in /home/rcli/ws_sorting_final/install
+[0.169s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 415 installed packages in /opt/ros/jazzy
+[0.170s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.196s] Level 5:colcon.colcon_core.verb:set package 'sorting_bringup' build argument 'cmake_args' from command line to 'None'
+[0.196s] Level 5:colcon.colcon_core.verb:set package 'sorting_bringup' build argument 'cmake_target' from command line to 'None'
+[0.196s] Level 5:colcon.colcon_core.verb:set package 'sorting_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.196s] Level 5:colcon.colcon_core.verb:set package 'sorting_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.196s] Level 5:colcon.colcon_core.verb:set package 'sorting_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.196s] Level 5:colcon.colcon_core.verb:set package 'sorting_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.196s] Level 5:colcon.colcon_core.verb:set package 'sorting_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.196s] Level 5:colcon.colcon_core.verb:set package 'sorting_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.196s] Level 5:colcon.colcon_core.verb:set package 'sorting_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.196s] DEBUG:colcon.colcon_core.verb:Building package 'sorting_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rcli/ws_sorting_final/build/sorting_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rcli/ws_sorting_final/install/sorting_bringup', 'merge_install': False, 'path': '/home/rcli/ws_sorting_final/src/sorting_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.196s] Level 5:colcon.colcon_core.verb:set package 'sorting_gazebo' build argument 'cmake_args' from command line to 'None'
+[0.196s] Level 5:colcon.colcon_core.verb:set package 'sorting_gazebo' build argument 'cmake_target' from command line to 'None'
+[0.196s] Level 5:colcon.colcon_core.verb:set package 'sorting_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.196s] Level 5:colcon.colcon_core.verb:set package 'sorting_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.196s] Level 5:colcon.colcon_core.verb:set package 'sorting_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[0.196s] Level 5:colcon.colcon_core.verb:set package 'sorting_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[0.196s] Level 5:colcon.colcon_core.verb:set package 'sorting_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[0.196s] Level 5:colcon.colcon_core.verb:set package 'sorting_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.196s] Level 5:colcon.colcon_core.verb:set package 'sorting_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.196s] DEBUG:colcon.colcon_core.verb:Building package 'sorting_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rcli/ws_sorting_final/build/sorting_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rcli/ws_sorting_final/install/sorting_gazebo', 'merge_install': False, 'path': '/home/rcli/ws_sorting_final/src/sorting_gazebo', 'symlink_install': False, 'test_result_base': None}
+[0.197s] Level 5:colcon.colcon_core.verb:set package 'sorting_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.197s] Level 5:colcon.colcon_core.verb:set package 'sorting_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.197s] Level 5:colcon.colcon_core.verb:set package 'sorting_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.197s] Level 5:colcon.colcon_core.verb:set package 'sorting_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.197s] Level 5:colcon.colcon_core.verb:set package 'sorting_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.197s] Level 5:colcon.colcon_core.verb:set package 'sorting_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.197s] Level 5:colcon.colcon_core.verb:set package 'sorting_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.197s] Level 5:colcon.colcon_core.verb:set package 'sorting_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.197s] Level 5:colcon.colcon_core.verb:set package 'sorting_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.197s] DEBUG:colcon.colcon_core.verb:Building package 'sorting_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rcli/ws_sorting_final/build/sorting_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rcli/ws_sorting_final/install/sorting_interfaces', 'merge_install': False, 'path': '/home/rcli/ws_sorting_final/src/sorting_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.197s] Level 5:colcon.colcon_core.verb:set package 'sorting_executor_py' build argument 'cmake_args' from command line to 'None'
+[0.197s] Level 5:colcon.colcon_core.verb:set package 'sorting_executor_py' build argument 'cmake_target' from command line to 'None'
+[0.197s] Level 5:colcon.colcon_core.verb:set package 'sorting_executor_py' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.197s] Level 5:colcon.colcon_core.verb:set package 'sorting_executor_py' build argument 'cmake_clean_cache' from command line to 'False'
+[0.197s] Level 5:colcon.colcon_core.verb:set package 'sorting_executor_py' build argument 'cmake_clean_first' from command line to 'False'
+[0.197s] Level 5:colcon.colcon_core.verb:set package 'sorting_executor_py' build argument 'cmake_force_configure' from command line to 'False'
+[0.197s] Level 5:colcon.colcon_core.verb:set package 'sorting_executor_py' build argument 'ament_cmake_args' from command line to 'None'
+[0.197s] Level 5:colcon.colcon_core.verb:set package 'sorting_executor_py' build argument 'catkin_cmake_args' from command line to 'None'
+[0.197s] Level 5:colcon.colcon_core.verb:set package 'sorting_executor_py' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.197s] DEBUG:colcon.colcon_core.verb:Building package 'sorting_executor_py' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rcli/ws_sorting_final/build/sorting_executor_py', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rcli/ws_sorting_final/install/sorting_executor_py', 'merge_install': False, 'path': '/home/rcli/ws_sorting_final/src/sorting_executor_py', 'symlink_install': False, 'test_result_base': None}
+[0.197s] Level 5:colcon.colcon_core.verb:set package 'sorting_orchestrator' build argument 'cmake_args' from command line to 'None'
+[0.197s] Level 5:colcon.colcon_core.verb:set package 'sorting_orchestrator' build argument 'cmake_target' from command line to 'None'
+[0.197s] Level 5:colcon.colcon_core.verb:set package 'sorting_orchestrator' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.197s] Level 5:colcon.colcon_core.verb:set package 'sorting_orchestrator' build argument 'cmake_clean_cache' from command line to 'False'
+[0.197s] Level 5:colcon.colcon_core.verb:set package 'sorting_orchestrator' build argument 'cmake_clean_first' from command line to 'False'
+[0.197s] Level 5:colcon.colcon_core.verb:set package 'sorting_orchestrator' build argument 'cmake_force_configure' from command line to 'False'
+[0.197s] Level 5:colcon.colcon_core.verb:set package 'sorting_orchestrator' build argument 'ament_cmake_args' from command line to 'None'
+[0.197s] Level 5:colcon.colcon_core.verb:set package 'sorting_orchestrator' build argument 'catkin_cmake_args' from command line to 'None'
+[0.197s] Level 5:colcon.colcon_core.verb:set package 'sorting_orchestrator' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.197s] DEBUG:colcon.colcon_core.verb:Building package 'sorting_orchestrator' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rcli/ws_sorting_final/build/sorting_orchestrator', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rcli/ws_sorting_final/install/sorting_orchestrator', 'merge_install': False, 'path': '/home/rcli/ws_sorting_final/src/sorting_orchestrator', 'symlink_install': False, 'test_result_base': None}
+[0.197s] Level 5:colcon.colcon_core.verb:set package 'sorting_perception' build argument 'cmake_args' from command line to 'None'
+[0.197s] Level 5:colcon.colcon_core.verb:set package 'sorting_perception' build argument 'cmake_target' from command line to 'None'
+[0.197s] Level 5:colcon.colcon_core.verb:set package 'sorting_perception' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.197s] Level 5:colcon.colcon_core.verb:set package 'sorting_perception' build argument 'cmake_clean_cache' from command line to 'False'
+[0.197s] Level 5:colcon.colcon_core.verb:set package 'sorting_perception' build argument 'cmake_clean_first' from command line to 'False'
+[0.197s] Level 5:colcon.colcon_core.verb:set package 'sorting_perception' build argument 'cmake_force_configure' from command line to 'False'
+[0.197s] Level 5:colcon.colcon_core.verb:set package 'sorting_perception' build argument 'ament_cmake_args' from command line to 'None'
+[0.197s] Level 5:colcon.colcon_core.verb:set package 'sorting_perception' build argument 'catkin_cmake_args' from command line to 'None'
+[0.197s] Level 5:colcon.colcon_core.verb:set package 'sorting_perception' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.197s] DEBUG:colcon.colcon_core.verb:Building package 'sorting_perception' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rcli/ws_sorting_final/build/sorting_perception', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rcli/ws_sorting_final/install/sorting_perception', 'merge_install': False, 'path': '/home/rcli/ws_sorting_final/src/sorting_perception', 'symlink_install': False, 'test_result_base': None}
+[0.197s] Level 5:colcon.colcon_core.verb:set package 'sorting_scene' build argument 'cmake_args' from command line to 'None'
+[0.197s] Level 5:colcon.colcon_core.verb:set package 'sorting_scene' build argument 'cmake_target' from command line to 'None'
+[0.197s] Level 5:colcon.colcon_core.verb:set package 'sorting_scene' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.197s] Level 5:colcon.colcon_core.verb:set package 'sorting_scene' build argument 'cmake_clean_cache' from command line to 'False'
+[0.197s] Level 5:colcon.colcon_core.verb:set package 'sorting_scene' build argument 'cmake_clean_first' from command line to 'False'
+[0.197s] Level 5:colcon.colcon_core.verb:set package 'sorting_scene' build argument 'cmake_force_configure' from command line to 'False'
+[0.197s] Level 5:colcon.colcon_core.verb:set package 'sorting_scene' build argument 'ament_cmake_args' from command line to 'None'
+[0.197s] Level 5:colcon.colcon_core.verb:set package 'sorting_scene' build argument 'catkin_cmake_args' from command line to 'None'
+[0.197s] Level 5:colcon.colcon_core.verb:set package 'sorting_scene' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.197s] DEBUG:colcon.colcon_core.verb:Building package 'sorting_scene' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rcli/ws_sorting_final/build/sorting_scene', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rcli/ws_sorting_final/install/sorting_scene', 'merge_install': False, 'path': '/home/rcli/ws_sorting_final/src/sorting_scene', 'symlink_install': False, 'test_result_base': None}
+[0.198s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.198s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.199s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rcli/ws_sorting_final/src/sorting_interfaces' with build type 'ament_cmake'
+[0.199s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rcli/ws_sorting_final/src/sorting_interfaces'
+[0.202s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.202s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.202s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.205s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/rcli/ws_sorting_final/src/sorting_bringup' with build type 'ament_python'
+[0.205s] Level 1:colcon.colcon_core.shell:create_environment_hook('sorting_bringup', 'ament_prefix_path')
+[0.205s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rcli/ws_sorting_final/install/sorting_bringup/share/sorting_bringup/hook/ament_prefix_path.ps1'
+[0.205s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rcli/ws_sorting_final/install/sorting_bringup/share/sorting_bringup/hook/ament_prefix_path.dsv'
+[0.206s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rcli/ws_sorting_final/install/sorting_bringup/share/sorting_bringup/hook/ament_prefix_path.sh'
+[0.206s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.206s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.208s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/rcli/ws_sorting_final/src/sorting_gazebo' with build type 'ament_python'
+[0.208s] Level 1:colcon.colcon_core.shell:create_environment_hook('sorting_gazebo', 'ament_prefix_path')
+[0.208s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rcli/ws_sorting_final/install/sorting_gazebo/share/sorting_gazebo/hook/ament_prefix_path.ps1'
+[0.209s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rcli/ws_sorting_final/install/sorting_gazebo/share/sorting_gazebo/hook/ament_prefix_path.dsv'
+[0.209s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rcli/ws_sorting_final/install/sorting_gazebo/share/sorting_gazebo/hook/ament_prefix_path.sh'
+[0.209s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.209s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.213s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rcli/ws_sorting_final/build/sorting_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rcli/ws_sorting_final/install/sorting_scene:/home/rcli/ws_sorting_final/install/sorting_perception:/home/rcli/ws_sorting_final/install/sorting_orchestrator:/home/rcli/ws_sorting_final/install/sorting_executor_py:/home/rcli/ws_sorting_final/install/sorting_gazebo:/home/rcli/ws_sorting_final/install/sorting_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/rcli/ws_sorting_final/build/sorting_interfaces -- -j24 -l24
+[0.334s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/rcli/ws_sorting_final/src/sorting_bringup'
+[0.334s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.334s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.459s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/rcli/ws_sorting_final/src/sorting_gazebo'
+[0.459s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.459s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.463s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rcli/ws_sorting_final/build/sorting_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rcli/ws_sorting_final/install/sorting_scene:/home/rcli/ws_sorting_final/install/sorting_perception:/home/rcli/ws_sorting_final/install/sorting_orchestrator:/home/rcli/ws_sorting_final/install/sorting_executor_py:/home/rcli/ws_sorting_final/install/sorting_gazebo:/home/rcli/ws_sorting_final/install/sorting_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/rcli/ws_sorting_final/build/sorting_interfaces -- -j24 -l24
+[0.472s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rcli/ws_sorting_final/build/sorting_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rcli/ws_sorting_final/install/sorting_scene:/home/rcli/ws_sorting_final/install/sorting_perception:/home/rcli/ws_sorting_final/install/sorting_orchestrator:/home/rcli/ws_sorting_final/install/sorting_executor_py:/home/rcli/ws_sorting_final/install/sorting_gazebo:/home/rcli/ws_sorting_final/install/sorting_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/rcli/ws_sorting_final/build/sorting_interfaces
+[0.510s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sorting_interfaces)
+[0.510s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rcli/ws_sorting_final/build/sorting_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rcli/ws_sorting_final/install/sorting_scene:/home/rcli/ws_sorting_final/install/sorting_perception:/home/rcli/ws_sorting_final/install/sorting_orchestrator:/home/rcli/ws_sorting_final/install/sorting_executor_py:/home/rcli/ws_sorting_final/install/sorting_gazebo:/home/rcli/ws_sorting_final/install/sorting_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/rcli/ws_sorting_final/build/sorting_interfaces
+[0.514s] Level 1:colcon.colcon_core.environment:checking '/home/rcli/ws_sorting_final/install/sorting_interfaces' for CMake module files
+[0.515s] Level 1:colcon.colcon_core.environment:checking '/home/rcli/ws_sorting_final/install/sorting_interfaces' for CMake config files
+[0.515s] Level 1:colcon.colcon_core.shell:create_environment_hook('sorting_interfaces', 'cmake_prefix_path')
+[0.516s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rcli/ws_sorting_final/install/sorting_interfaces/share/sorting_interfaces/hook/cmake_prefix_path.ps1'
+[0.516s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rcli/ws_sorting_final/install/sorting_interfaces/share/sorting_interfaces/hook/cmake_prefix_path.dsv'
+[0.516s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rcli/ws_sorting_final/install/sorting_interfaces/share/sorting_interfaces/hook/cmake_prefix_path.sh'
+[0.517s] Level 1:colcon.colcon_core.environment:checking '/home/rcli/ws_sorting_final/install/sorting_interfaces/lib'
+[0.517s] Level 1:colcon.colcon_core.shell:create_environment_hook('sorting_interfaces', 'ld_library_path_lib')
+[0.517s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rcli/ws_sorting_final/install/sorting_interfaces/share/sorting_interfaces/hook/ld_library_path_lib.ps1'
+[0.518s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rcli/ws_sorting_final/install/sorting_interfaces/share/sorting_interfaces/hook/ld_library_path_lib.dsv'
+[0.518s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rcli/ws_sorting_final/install/sorting_interfaces/share/sorting_interfaces/hook/ld_library_path_lib.sh'
+[0.518s] Level 1:colcon.colcon_core.environment:checking '/home/rcli/ws_sorting_final/install/sorting_interfaces/bin'
+[0.518s] Level 1:colcon.colcon_core.environment:checking '/home/rcli/ws_sorting_final/install/sorting_interfaces/lib/pkgconfig/sorting_interfaces.pc'
+[0.518s] Level 1:colcon.colcon_core.environment:checking '/home/rcli/ws_sorting_final/install/sorting_interfaces/lib/python3.12/site-packages'
+[0.518s] Level 1:colcon.colcon_core.shell:create_environment_hook('sorting_interfaces', 'pythonpath')
+[0.519s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rcli/ws_sorting_final/install/sorting_interfaces/share/sorting_interfaces/hook/pythonpath.ps1'
+[0.519s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rcli/ws_sorting_final/install/sorting_interfaces/share/sorting_interfaces/hook/pythonpath.dsv'
+[0.519s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rcli/ws_sorting_final/install/sorting_interfaces/share/sorting_interfaces/hook/pythonpath.sh'
+[0.519s] Level 1:colcon.colcon_core.environment:checking '/home/rcli/ws_sorting_final/install/sorting_interfaces/bin'
+[0.519s] INFO:colcon.colcon_core.shell:Creating package script '/home/rcli/ws_sorting_final/install/sorting_interfaces/share/sorting_interfaces/package.ps1'
+[0.520s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rcli/ws_sorting_final/install/sorting_interfaces/share/sorting_interfaces/package.dsv'
+[0.520s] INFO:colcon.colcon_core.shell:Creating package script '/home/rcli/ws_sorting_final/install/sorting_interfaces/share/sorting_interfaces/package.sh'
+[0.521s] INFO:colcon.colcon_core.shell:Creating package script '/home/rcli/ws_sorting_final/install/sorting_interfaces/share/sorting_interfaces/package.bash'
+[0.521s] INFO:colcon.colcon_core.shell:Creating package script '/home/rcli/ws_sorting_final/install/sorting_interfaces/share/sorting_interfaces/package.zsh'
+[0.521s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rcli/ws_sorting_final/install/sorting_interfaces/share/colcon-core/packages/sorting_interfaces)
+[0.521s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sorting_interfaces)
+[0.521s] Level 1:colcon.colcon_core.environment:checking '/home/rcli/ws_sorting_final/install/sorting_interfaces' for CMake module files
+[0.522s] Level 1:colcon.colcon_core.environment:checking '/home/rcli/ws_sorting_final/install/sorting_interfaces' for CMake config files
+[0.522s] Level 1:colcon.colcon_core.shell:create_environment_hook('sorting_interfaces', 'cmake_prefix_path')
+[0.522s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rcli/ws_sorting_final/install/sorting_interfaces/share/sorting_interfaces/hook/cmake_prefix_path.ps1'
+[0.522s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rcli/ws_sorting_final/install/sorting_interfaces/share/sorting_interfaces/hook/cmake_prefix_path.dsv'
+[0.522s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rcli/ws_sorting_final/install/sorting_interfaces/share/sorting_interfaces/hook/cmake_prefix_path.sh'
+[0.523s] Level 1:colcon.colcon_core.environment:checking '/home/rcli/ws_sorting_final/install/sorting_interfaces/lib'
+[0.523s] Level 1:colcon.colcon_core.shell:create_environment_hook('sorting_interfaces', 'ld_library_path_lib')
+[0.523s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rcli/ws_sorting_final/install/sorting_interfaces/share/sorting_interfaces/hook/ld_library_path_lib.ps1'
+[0.523s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rcli/ws_sorting_final/install/sorting_interfaces/share/sorting_interfaces/hook/ld_library_path_lib.dsv'
+[0.523s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rcli/ws_sorting_final/install/sorting_interfaces/share/sorting_interfaces/hook/ld_library_path_lib.sh'
+[0.524s] Level 1:colcon.colcon_core.environment:checking '/home/rcli/ws_sorting_final/install/sorting_interfaces/bin'
+[0.524s] Level 1:colcon.colcon_core.environment:checking '/home/rcli/ws_sorting_final/install/sorting_interfaces/lib/pkgconfig/sorting_interfaces.pc'
+[0.524s] Level 1:colcon.colcon_core.environment:checking '/home/rcli/ws_sorting_final/install/sorting_interfaces/lib/python3.12/site-packages'
+[0.524s] Level 1:colcon.colcon_core.shell:create_environment_hook('sorting_interfaces', 'pythonpath')
+[0.524s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rcli/ws_sorting_final/install/sorting_interfaces/share/sorting_interfaces/hook/pythonpath.ps1'
+[0.524s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rcli/ws_sorting_final/install/sorting_interfaces/share/sorting_interfaces/hook/pythonpath.dsv'
+[0.524s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rcli/ws_sorting_final/install/sorting_interfaces/share/sorting_interfaces/hook/pythonpath.sh'
+[0.525s] Level 1:colcon.colcon_core.environment:checking '/home/rcli/ws_sorting_final/install/sorting_interfaces/bin'
+[0.525s] INFO:colcon.colcon_core.shell:Creating package script '/home/rcli/ws_sorting_final/install/sorting_interfaces/share/sorting_interfaces/package.ps1'
+[0.525s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rcli/ws_sorting_final/install/sorting_interfaces/share/sorting_interfaces/package.dsv'
+[0.526s] INFO:colcon.colcon_core.shell:Creating package script '/home/rcli/ws_sorting_final/install/sorting_interfaces/share/sorting_interfaces/package.sh'
+[0.526s] INFO:colcon.colcon_core.shell:Creating package script '/home/rcli/ws_sorting_final/install/sorting_interfaces/share/sorting_interfaces/package.bash'
+[0.526s] INFO:colcon.colcon_core.shell:Creating package script '/home/rcli/ws_sorting_final/install/sorting_interfaces/share/sorting_interfaces/package.zsh'
+[0.526s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rcli/ws_sorting_final/install/sorting_interfaces/share/colcon-core/packages/sorting_interfaces)
+[0.526s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/rcli/ws_sorting_final/src/sorting_executor_py' with build type 'ament_python'
+[0.527s] Level 1:colcon.colcon_core.shell:create_environment_hook('sorting_executor_py', 'ament_prefix_path')
+[0.527s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rcli/ws_sorting_final/install/sorting_executor_py/share/sorting_executor_py/hook/ament_prefix_path.ps1'
+[0.527s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rcli/ws_sorting_final/install/sorting_executor_py/share/sorting_executor_py/hook/ament_prefix_path.dsv'
+[0.527s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rcli/ws_sorting_final/install/sorting_executor_py/share/sorting_executor_py/hook/ament_prefix_path.sh'
+[0.527s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.528s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.530s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/rcli/ws_sorting_final/src/sorting_orchestrator' with build type 'ament_python'
+[0.530s] Level 1:colcon.colcon_core.shell:create_environment_hook('sorting_orchestrator', 'ament_prefix_path')
+[0.530s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rcli/ws_sorting_final/install/sorting_orchestrator/share/sorting_orchestrator/hook/ament_prefix_path.ps1'
+[0.530s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rcli/ws_sorting_final/install/sorting_orchestrator/share/sorting_orchestrator/hook/ament_prefix_path.dsv'
+[0.530s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rcli/ws_sorting_final/install/sorting_orchestrator/share/sorting_orchestrator/hook/ament_prefix_path.sh'
+[0.531s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.531s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.533s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/rcli/ws_sorting_final/src/sorting_perception' with build type 'ament_python'
+[0.533s] Level 1:colcon.colcon_core.shell:create_environment_hook('sorting_perception', 'ament_prefix_path')
+[0.533s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rcli/ws_sorting_final/install/sorting_perception/share/sorting_perception/hook/ament_prefix_path.ps1'
+[0.533s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rcli/ws_sorting_final/install/sorting_perception/share/sorting_perception/hook/ament_prefix_path.dsv'
+[0.533s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rcli/ws_sorting_final/install/sorting_perception/share/sorting_perception/hook/ament_prefix_path.sh'
+[0.534s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.534s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.536s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/rcli/ws_sorting_final/src/sorting_scene' with build type 'ament_python'
+[0.536s] Level 1:colcon.colcon_core.shell:create_environment_hook('sorting_scene', 'ament_prefix_path')
+[0.536s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rcli/ws_sorting_final/install/sorting_scene/share/sorting_scene/hook/ament_prefix_path.ps1'
+[0.536s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rcli/ws_sorting_final/install/sorting_scene/share/sorting_scene/hook/ament_prefix_path.dsv'
+[0.536s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rcli/ws_sorting_final/install/sorting_scene/share/sorting_scene/hook/ament_prefix_path.sh'
+[0.537s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.537s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.680s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/rcli/ws_sorting_final/src/sorting_executor_py'
+[0.680s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.680s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.819s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/rcli/ws_sorting_final/src/sorting_orchestrator'
+[0.819s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.819s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.937s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/rcli/ws_sorting_final/src/sorting_perception'
+[0.937s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.937s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.055s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/rcli/ws_sorting_final/src/sorting_scene'
+[1.055s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.055s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.060s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rcli/ws_sorting_final/src/sorting_bringup': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/rcli/ws_sorting_final/build/sorting_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rcli/ws_sorting_final/install/sorting_bringup/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sorting_bringup build --build-base /home/rcli/ws_sorting_final/build/sorting_bringup/build install --record /home/rcli/ws_sorting_final/build/sorting_bringup/install.log --single-version-externally-managed install_data
+[1.061s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rcli/ws_sorting_final/src/sorting_gazebo': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/rcli/ws_sorting_final/build/sorting_gazebo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rcli/ws_sorting_final/install/sorting_gazebo/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sorting_gazebo build --build-base /home/rcli/ws_sorting_final/build/sorting_gazebo/build install --record /home/rcli/ws_sorting_final/build/sorting_gazebo/install.log --single-version-externally-managed install_data
+[1.413s] Level 1:colcon.colcon_core.environment:checking '/home/rcli/ws_sorting_final/install/sorting_gazebo' for CMake module files
+[1.414s] Level 1:colcon.colcon_core.environment:checking '/home/rcli/ws_sorting_final/install/sorting_gazebo' for CMake config files
+[1.414s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rcli/ws_sorting_final/src/sorting_gazebo' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/rcli/ws_sorting_final/build/sorting_gazebo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rcli/ws_sorting_final/install/sorting_gazebo/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sorting_gazebo build --build-base /home/rcli/ws_sorting_final/build/sorting_gazebo/build install --record /home/rcli/ws_sorting_final/build/sorting_gazebo/install.log --single-version-externally-managed install_data
+[1.415s] Level 1:colcon.colcon_core.environment:checking '/home/rcli/ws_sorting_final/install/sorting_gazebo/lib'
+[1.415s] Level 1:colcon.colcon_core.environment:checking '/home/rcli/ws_sorting_final/install/sorting_gazebo/bin'
+[1.415s] Level 1:colcon.colcon_core.environment:checking '/home/rcli/ws_sorting_final/install/sorting_gazebo/lib/pkgconfig/sorting_gazebo.pc'
+[1.415s] Level 1:colcon.colcon_core.environment:checking '/home/rcli/ws_sorting_final/install/sorting_gazebo/lib/python3.12/site-packages'
+[1.415s] Level 1:colcon.colcon_core.shell:create_environment_hook('sorting_gazebo', 'pythonpath')
+[1.415s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rcli/ws_sorting_final/install/sorting_gazebo/share/sorting_gazebo/hook/pythonpath.ps1'
+[1.416s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rcli/ws_sorting_final/install/sorting_gazebo/share/sorting_gazebo/hook/pythonpath.dsv'
+[1.416s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rcli/ws_sorting_final/install/sorting_gazebo/share/sorting_gazebo/hook/pythonpath.sh'
+[1.417s] Level 1:colcon.colcon_core.environment:checking '/home/rcli/ws_sorting_final/install/sorting_gazebo/bin'
+[1.417s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sorting_gazebo)
+[1.417s] INFO:colcon.colcon_core.shell:Creating package script '/home/rcli/ws_sorting_final/install/sorting_gazebo/share/sorting_gazebo/package.ps1'
+[1.418s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rcli/ws_sorting_final/install/sorting_gazebo/share/sorting_gazebo/package.dsv'
+[1.418s] INFO:colcon.colcon_core.shell:Creating package script '/home/rcli/ws_sorting_final/install/sorting_gazebo/share/sorting_gazebo/package.sh'
+[1.418s] INFO:colcon.colcon_core.shell:Creating package script '/home/rcli/ws_sorting_final/install/sorting_gazebo/share/sorting_gazebo/package.bash'
+[1.418s] INFO:colcon.colcon_core.shell:Creating package script '/home/rcli/ws_sorting_final/install/sorting_gazebo/share/sorting_gazebo/package.zsh'
+[1.419s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rcli/ws_sorting_final/install/sorting_gazebo/share/colcon-core/packages/sorting_gazebo)
+[1.420s] Level 1:colcon.colcon_core.environment:checking '/home/rcli/ws_sorting_final/install/sorting_bringup' for CMake module files
+[1.420s] Level 1:colcon.colcon_core.environment:checking '/home/rcli/ws_sorting_final/install/sorting_bringup' for CMake config files
+[1.420s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rcli/ws_sorting_final/src/sorting_bringup' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/rcli/ws_sorting_final/build/sorting_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rcli/ws_sorting_final/install/sorting_bringup/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sorting_bringup build --build-base /home/rcli/ws_sorting_final/build/sorting_bringup/build install --record /home/rcli/ws_sorting_final/build/sorting_bringup/install.log --single-version-externally-managed install_data
+[1.421s] Level 1:colcon.colcon_core.environment:checking '/home/rcli/ws_sorting_final/install/sorting_bringup/lib'
+[1.421s] Level 1:colcon.colcon_core.environment:checking '/home/rcli/ws_sorting_final/install/sorting_bringup/bin'
+[1.421s] Level 1:colcon.colcon_core.environment:checking '/home/rcli/ws_sorting_final/install/sorting_bringup/lib/pkgconfig/sorting_bringup.pc'
+[1.421s] Level 1:colcon.colcon_core.environment:checking '/home/rcli/ws_sorting_final/install/sorting_bringup/lib/python3.12/site-packages'
+[1.421s] Level 1:colcon.colcon_core.shell:create_environment_hook('sorting_bringup', 'pythonpath')
+[1.421s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rcli/ws_sorting_final/install/sorting_bringup/share/sorting_bringup/hook/pythonpath.ps1'
+[1.421s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rcli/ws_sorting_final/install/sorting_bringup/share/sorting_bringup/hook/pythonpath.dsv'
+[1.422s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rcli/ws_sorting_final/install/sorting_bringup/share/sorting_bringup/hook/pythonpath.sh'
+[1.422s] Level 1:colcon.colcon_core.environment:checking '/home/rcli/ws_sorting_final/install/sorting_bringup/bin'
+[1.422s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sorting_bringup)
+[1.422s] INFO:colcon.colcon_core.shell:Creating package script '/home/rcli/ws_sorting_final/install/sorting_bringup/share/sorting_bringup/package.ps1'
+[1.423s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rcli/ws_sorting_final/install/sorting_bringup/share/sorting_bringup/package.dsv'
+[1.423s] INFO:colcon.colcon_core.shell:Creating package script '/home/rcli/ws_sorting_final/install/sorting_bringup/share/sorting_bringup/package.sh'
+[1.423s] INFO:colcon.colcon_core.shell:Creating package script '/home/rcli/ws_sorting_final/install/sorting_bringup/share/sorting_bringup/package.bash'
+[1.423s] INFO:colcon.colcon_core.shell:Creating package script '/home/rcli/ws_sorting_final/install/sorting_bringup/share/sorting_bringup/package.zsh'
+[1.424s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rcli/ws_sorting_final/install/sorting_bringup/share/colcon-core/packages/sorting_bringup)
+[1.451s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rcli/ws_sorting_final/src/sorting_perception': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/rcli/ws_sorting_final/build/sorting_perception/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rcli/ws_sorting_final/install/sorting_perception/lib/python3.12/site-packages:/home/rcli/ws_sorting_final/install/sorting_interfaces/lib/python3.12/site-packages:/home/rcli/ws_sorting_final/install/sorting_scene/lib/python3.12/site-packages:/home/rcli/ws_sorting_final/install/sorting_perception/lib/python3.12/site-packages:/home/rcli/ws_sorting_final/install/sorting_orchestrator/lib/python3.12/site-packages:/home/rcli/ws_sorting_final/install/sorting_executor_py/lib/python3.12/site-packages:/home/rcli/ws_sorting_final/install/sorting_gazebo/lib/python3.12/site-packages:/home/rcli/ws_sorting_final/install/sorting_bringup/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sorting_perception build --build-base /home/rcli/ws_sorting_final/build/sorting_perception/build install --record /home/rcli/ws_sorting_final/build/sorting_perception/install.log --single-version-externally-managed install_data
+[1.452s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rcli/ws_sorting_final/src/sorting_executor_py': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/rcli/ws_sorting_final/build/sorting_executor_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rcli/ws_sorting_final/install/sorting_executor_py/lib/python3.12/site-packages:/home/rcli/ws_sorting_final/install/sorting_interfaces/lib/python3.12/site-packages:/home/rcli/ws_sorting_final/install/sorting_scene/lib/python3.12/site-packages:/home/rcli/ws_sorting_final/install/sorting_perception/lib/python3.12/site-packages:/home/rcli/ws_sorting_final/install/sorting_orchestrator/lib/python3.12/site-packages:/home/rcli/ws_sorting_final/install/sorting_executor_py/lib/python3.12/site-packages:/home/rcli/ws_sorting_final/install/sorting_gazebo/lib/python3.12/site-packages:/home/rcli/ws_sorting_final/install/sorting_bringup/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sorting_executor_py build --build-base /home/rcli/ws_sorting_final/build/sorting_executor_py/build install --record /home/rcli/ws_sorting_final/build/sorting_executor_py/install.log --single-version-externally-managed install_data
+[1.453s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rcli/ws_sorting_final/src/sorting_orchestrator': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/rcli/ws_sorting_final/build/sorting_orchestrator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rcli/ws_sorting_final/install/sorting_orchestrator/lib/python3.12/site-packages:/home/rcli/ws_sorting_final/install/sorting_interfaces/lib/python3.12/site-packages:/home/rcli/ws_sorting_final/install/sorting_scene/lib/python3.12/site-packages:/home/rcli/ws_sorting_final/install/sorting_perception/lib/python3.12/site-packages:/home/rcli/ws_sorting_final/install/sorting_orchestrator/lib/python3.12/site-packages:/home/rcli/ws_sorting_final/install/sorting_executor_py/lib/python3.12/site-packages:/home/rcli/ws_sorting_final/install/sorting_gazebo/lib/python3.12/site-packages:/home/rcli/ws_sorting_final/install/sorting_bringup/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sorting_orchestrator build --build-base /home/rcli/ws_sorting_final/build/sorting_orchestrator/build install --record /home/rcli/ws_sorting_final/build/sorting_orchestrator/install.log --single-version-externally-managed install_data
+[1.465s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rcli/ws_sorting_final/src/sorting_scene': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/rcli/ws_sorting_final/build/sorting_scene/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rcli/ws_sorting_final/install/sorting_scene/lib/python3.12/site-packages:/home/rcli/ws_sorting_final/install/sorting_interfaces/lib/python3.12/site-packages:/home/rcli/ws_sorting_final/install/sorting_scene/lib/python3.12/site-packages:/home/rcli/ws_sorting_final/install/sorting_perception/lib/python3.12/site-packages:/home/rcli/ws_sorting_final/install/sorting_orchestrator/lib/python3.12/site-packages:/home/rcli/ws_sorting_final/install/sorting_executor_py/lib/python3.12/site-packages:/home/rcli/ws_sorting_final/install/sorting_gazebo/lib/python3.12/site-packages:/home/rcli/ws_sorting_final/install/sorting_bringup/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sorting_scene build --build-base /home/rcli/ws_sorting_final/build/sorting_scene/build install --record /home/rcli/ws_sorting_final/build/sorting_scene/install.log --single-version-externally-managed install_data
+[1.778s] Level 1:colcon.colcon_core.environment:checking '/home/rcli/ws_sorting_final/install/sorting_perception' for CMake module files
+[1.778s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rcli/ws_sorting_final/src/sorting_perception' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/rcli/ws_sorting_final/build/sorting_perception/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rcli/ws_sorting_final/install/sorting_perception/lib/python3.12/site-packages:/home/rcli/ws_sorting_final/install/sorting_interfaces/lib/python3.12/site-packages:/home/rcli/ws_sorting_final/install/sorting_scene/lib/python3.12/site-packages:/home/rcli/ws_sorting_final/install/sorting_perception/lib/python3.12/site-packages:/home/rcli/ws_sorting_final/install/sorting_orchestrator/lib/python3.12/site-packages:/home/rcli/ws_sorting_final/install/sorting_executor_py/lib/python3.12/site-packages:/home/rcli/ws_sorting_final/install/sorting_gazebo/lib/python3.12/site-packages:/home/rcli/ws_sorting_final/install/sorting_bringup/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sorting_perception build --build-base /home/rcli/ws_sorting_final/build/sorting_perception/build install --record /home/rcli/ws_sorting_final/build/sorting_perception/install.log --single-version-externally-managed install_data
+[1.779s] Level 1:colcon.colcon_core.environment:checking '/home/rcli/ws_sorting_final/install/sorting_perception' for CMake config files
+[1.779s] Level 1:colcon.colcon_core.environment:checking '/home/rcli/ws_sorting_final/install/sorting_perception/lib'
+[1.779s] Level 1:colcon.colcon_core.environment:checking '/home/rcli/ws_sorting_final/install/sorting_perception/bin'
+[1.779s] Level 1:colcon.colcon_core.environment:checking '/home/rcli/ws_sorting_final/install/sorting_perception/lib/pkgconfig/sorting_perception.pc'
+[1.780s] Level 1:colcon.colcon_core.environment:checking '/home/rcli/ws_sorting_final/install/sorting_perception/lib/python3.12/site-packages'
+[1.780s] Level 1:colcon.colcon_core.shell:create_environment_hook('sorting_perception', 'pythonpath')
+[1.780s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rcli/ws_sorting_final/install/sorting_perception/share/sorting_perception/hook/pythonpath.ps1'
+[1.780s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rcli/ws_sorting_final/install/sorting_perception/share/sorting_perception/hook/pythonpath.dsv'
+[1.780s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rcli/ws_sorting_final/install/sorting_perception/share/sorting_perception/hook/pythonpath.sh'
+[1.781s] Level 1:colcon.colcon_core.environment:checking '/home/rcli/ws_sorting_final/install/sorting_perception/bin'
+[1.781s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sorting_perception)
+[1.781s] INFO:colcon.colcon_core.shell:Creating package script '/home/rcli/ws_sorting_final/install/sorting_perception/share/sorting_perception/package.ps1'
+[1.781s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rcli/ws_sorting_final/install/sorting_perception/share/sorting_perception/package.dsv'
+[1.781s] INFO:colcon.colcon_core.shell:Creating package script '/home/rcli/ws_sorting_final/install/sorting_perception/share/sorting_perception/package.sh'
+[1.781s] INFO:colcon.colcon_core.shell:Creating package script '/home/rcli/ws_sorting_final/install/sorting_perception/share/sorting_perception/package.bash'
+[1.782s] INFO:colcon.colcon_core.shell:Creating package script '/home/rcli/ws_sorting_final/install/sorting_perception/share/sorting_perception/package.zsh'
+[1.782s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rcli/ws_sorting_final/install/sorting_perception/share/colcon-core/packages/sorting_perception)
+[1.782s] Level 1:colcon.colcon_core.environment:checking '/home/rcli/ws_sorting_final/install/sorting_executor_py' for CMake module files
+[1.783s] Level 1:colcon.colcon_core.environment:checking '/home/rcli/ws_sorting_final/install/sorting_executor_py' for CMake config files
+[1.783s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rcli/ws_sorting_final/src/sorting_executor_py' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/rcli/ws_sorting_final/build/sorting_executor_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rcli/ws_sorting_final/install/sorting_executor_py/lib/python3.12/site-packages:/home/rcli/ws_sorting_final/install/sorting_interfaces/lib/python3.12/site-packages:/home/rcli/ws_sorting_final/install/sorting_scene/lib/python3.12/site-packages:/home/rcli/ws_sorting_final/install/sorting_perception/lib/python3.12/site-packages:/home/rcli/ws_sorting_final/install/sorting_orchestrator/lib/python3.12/site-packages:/home/rcli/ws_sorting_final/install/sorting_executor_py/lib/python3.12/site-packages:/home/rcli/ws_sorting_final/install/sorting_gazebo/lib/python3.12/site-packages:/home/rcli/ws_sorting_final/install/sorting_bringup/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sorting_executor_py build --build-base /home/rcli/ws_sorting_final/build/sorting_executor_py/build install --record /home/rcli/ws_sorting_final/build/sorting_executor_py/install.log --single-version-externally-managed install_data
+[1.783s] Level 1:colcon.colcon_core.environment:checking '/home/rcli/ws_sorting_final/install/sorting_executor_py/lib'
+[1.783s] Level 1:colcon.colcon_core.environment:checking '/home/rcli/ws_sorting_final/install/sorting_executor_py/bin'
+[1.783s] Level 1:colcon.colcon_core.environment:checking '/home/rcli/ws_sorting_final/install/sorting_executor_py/lib/pkgconfig/sorting_executor_py.pc'
+[1.783s] Level 1:colcon.colcon_core.environment:checking '/home/rcli/ws_sorting_final/install/sorting_executor_py/lib/python3.12/site-packages'
+[1.784s] Level 1:colcon.colcon_core.shell:create_environment_hook('sorting_executor_py', 'pythonpath')
+[1.784s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rcli/ws_sorting_final/install/sorting_executor_py/share/sorting_executor_py/hook/pythonpath.ps1'
+[1.784s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rcli/ws_sorting_final/install/sorting_executor_py/share/sorting_executor_py/hook/pythonpath.dsv'
+[1.784s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rcli/ws_sorting_final/install/sorting_executor_py/share/sorting_executor_py/hook/pythonpath.sh'
+[1.784s] Level 1:colcon.colcon_core.environment:checking '/home/rcli/ws_sorting_final/install/sorting_executor_py/bin'
+[1.784s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sorting_executor_py)
+[1.785s] INFO:colcon.colcon_core.shell:Creating package script '/home/rcli/ws_sorting_final/install/sorting_executor_py/share/sorting_executor_py/package.ps1'
+[1.785s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rcli/ws_sorting_final/install/sorting_executor_py/share/sorting_executor_py/package.dsv'
+[1.785s] INFO:colcon.colcon_core.shell:Creating package script '/home/rcli/ws_sorting_final/install/sorting_executor_py/share/sorting_executor_py/package.sh'
+[1.785s] INFO:colcon.colcon_core.shell:Creating package script '/home/rcli/ws_sorting_final/install/sorting_executor_py/share/sorting_executor_py/package.bash'
+[1.785s] INFO:colcon.colcon_core.shell:Creating package script '/home/rcli/ws_sorting_final/install/sorting_executor_py/share/sorting_executor_py/package.zsh'
+[1.785s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rcli/ws_sorting_final/install/sorting_executor_py/share/colcon-core/packages/sorting_executor_py)
+[1.786s] Level 1:colcon.colcon_core.environment:checking '/home/rcli/ws_sorting_final/install/sorting_orchestrator' for CMake module files
+[1.786s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rcli/ws_sorting_final/src/sorting_orchestrator' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/rcli/ws_sorting_final/build/sorting_orchestrator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rcli/ws_sorting_final/install/sorting_orchestrator/lib/python3.12/site-packages:/home/rcli/ws_sorting_final/install/sorting_interfaces/lib/python3.12/site-packages:/home/rcli/ws_sorting_final/install/sorting_scene/lib/python3.12/site-packages:/home/rcli/ws_sorting_final/install/sorting_perception/lib/python3.12/site-packages:/home/rcli/ws_sorting_final/install/sorting_orchestrator/lib/python3.12/site-packages:/home/rcli/ws_sorting_final/install/sorting_executor_py/lib/python3.12/site-packages:/home/rcli/ws_sorting_final/install/sorting_gazebo/lib/python3.12/site-packages:/home/rcli/ws_sorting_final/install/sorting_bringup/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sorting_orchestrator build --build-base /home/rcli/ws_sorting_final/build/sorting_orchestrator/build install --record /home/rcli/ws_sorting_final/build/sorting_orchestrator/install.log --single-version-externally-managed install_data
+[1.787s] Level 1:colcon.colcon_core.environment:checking '/home/rcli/ws_sorting_final/install/sorting_orchestrator' for CMake config files
+[1.787s] Level 1:colcon.colcon_core.environment:checking '/home/rcli/ws_sorting_final/install/sorting_orchestrator/lib'
+[1.787s] Level 1:colcon.colcon_core.environment:checking '/home/rcli/ws_sorting_final/install/sorting_orchestrator/bin'
+[1.787s] Level 1:colcon.colcon_core.environment:checking '/home/rcli/ws_sorting_final/install/sorting_orchestrator/lib/pkgconfig/sorting_orchestrator.pc'
+[1.787s] Level 1:colcon.colcon_core.environment:checking '/home/rcli/ws_sorting_final/install/sorting_orchestrator/lib/python3.12/site-packages'
+[1.787s] Level 1:colcon.colcon_core.shell:create_environment_hook('sorting_orchestrator', 'pythonpath')
+[1.787s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rcli/ws_sorting_final/install/sorting_orchestrator/share/sorting_orchestrator/hook/pythonpath.ps1'
+[1.787s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rcli/ws_sorting_final/install/sorting_orchestrator/share/sorting_orchestrator/hook/pythonpath.dsv'
+[1.788s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rcli/ws_sorting_final/install/sorting_orchestrator/share/sorting_orchestrator/hook/pythonpath.sh'
+[1.788s] Level 1:colcon.colcon_core.environment:checking '/home/rcli/ws_sorting_final/install/sorting_orchestrator/bin'
+[1.788s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sorting_orchestrator)
+[1.788s] INFO:colcon.colcon_core.shell:Creating package script '/home/rcli/ws_sorting_final/install/sorting_orchestrator/share/sorting_orchestrator/package.ps1'
+[1.788s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rcli/ws_sorting_final/install/sorting_orchestrator/share/sorting_orchestrator/package.dsv'
+[1.788s] INFO:colcon.colcon_core.shell:Creating package script '/home/rcli/ws_sorting_final/install/sorting_orchestrator/share/sorting_orchestrator/package.sh'
+[1.789s] INFO:colcon.colcon_core.shell:Creating package script '/home/rcli/ws_sorting_final/install/sorting_orchestrator/share/sorting_orchestrator/package.bash'
+[1.789s] INFO:colcon.colcon_core.shell:Creating package script '/home/rcli/ws_sorting_final/install/sorting_orchestrator/share/sorting_orchestrator/package.zsh'
+[1.789s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rcli/ws_sorting_final/install/sorting_orchestrator/share/colcon-core/packages/sorting_orchestrator)
+[1.792s] Level 1:colcon.colcon_core.environment:checking '/home/rcli/ws_sorting_final/install/sorting_scene' for CMake module files
+[1.792s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rcli/ws_sorting_final/src/sorting_scene' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/rcli/ws_sorting_final/build/sorting_scene/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rcli/ws_sorting_final/install/sorting_scene/lib/python3.12/site-packages:/home/rcli/ws_sorting_final/install/sorting_interfaces/lib/python3.12/site-packages:/home/rcli/ws_sorting_final/install/sorting_scene/lib/python3.12/site-packages:/home/rcli/ws_sorting_final/install/sorting_perception/lib/python3.12/site-packages:/home/rcli/ws_sorting_final/install/sorting_orchestrator/lib/python3.12/site-packages:/home/rcli/ws_sorting_final/install/sorting_executor_py/lib/python3.12/site-packages:/home/rcli/ws_sorting_final/install/sorting_gazebo/lib/python3.12/site-packages:/home/rcli/ws_sorting_final/install/sorting_bringup/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sorting_scene build --build-base /home/rcli/ws_sorting_final/build/sorting_scene/build install --record /home/rcli/ws_sorting_final/build/sorting_scene/install.log --single-version-externally-managed install_data
+[1.793s] Level 1:colcon.colcon_core.environment:checking '/home/rcli/ws_sorting_final/install/sorting_scene' for CMake config files
+[1.793s] Level 1:colcon.colcon_core.environment:checking '/home/rcli/ws_sorting_final/install/sorting_scene/lib'
+[1.793s] Level 1:colcon.colcon_core.environment:checking '/home/rcli/ws_sorting_final/install/sorting_scene/bin'
+[1.793s] Level 1:colcon.colcon_core.environment:checking '/home/rcli/ws_sorting_final/install/sorting_scene/lib/pkgconfig/sorting_scene.pc'
+[1.793s] Level 1:colcon.colcon_core.environment:checking '/home/rcli/ws_sorting_final/install/sorting_scene/lib/python3.12/site-packages'
+[1.793s] Level 1:colcon.colcon_core.shell:create_environment_hook('sorting_scene', 'pythonpath')
+[1.793s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rcli/ws_sorting_final/install/sorting_scene/share/sorting_scene/hook/pythonpath.ps1'
+[1.793s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rcli/ws_sorting_final/install/sorting_scene/share/sorting_scene/hook/pythonpath.dsv'
+[1.794s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rcli/ws_sorting_final/install/sorting_scene/share/sorting_scene/hook/pythonpath.sh'
+[1.794s] Level 1:colcon.colcon_core.environment:checking '/home/rcli/ws_sorting_final/install/sorting_scene/bin'
+[1.794s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sorting_scene)
+[1.794s] INFO:colcon.colcon_core.shell:Creating package script '/home/rcli/ws_sorting_final/install/sorting_scene/share/sorting_scene/package.ps1'
+[1.794s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rcli/ws_sorting_final/install/sorting_scene/share/sorting_scene/package.dsv'
+[1.795s] INFO:colcon.colcon_core.shell:Creating package script '/home/rcli/ws_sorting_final/install/sorting_scene/share/sorting_scene/package.sh'
+[1.795s] INFO:colcon.colcon_core.shell:Creating package script '/home/rcli/ws_sorting_final/install/sorting_scene/share/sorting_scene/package.bash'
+[1.795s] INFO:colcon.colcon_core.shell:Creating package script '/home/rcli/ws_sorting_final/install/sorting_scene/share/sorting_scene/package.zsh'
+[1.795s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rcli/ws_sorting_final/install/sorting_scene/share/colcon-core/packages/sorting_scene)
+[1.795s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.795s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.795s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.795s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.800s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.800s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.800s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.820s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.821s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rcli/ws_sorting_final/install/local_setup.ps1'
+[1.821s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/rcli/ws_sorting_final/install/_local_setup_util_ps1.py'
+[1.822s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rcli/ws_sorting_final/install/setup.ps1'
+[1.822s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rcli/ws_sorting_final/install/local_setup.sh'
+[1.822s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/rcli/ws_sorting_final/install/_local_setup_util_sh.py'
+[1.823s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rcli/ws_sorting_final/install/setup.sh'
+[1.823s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rcli/ws_sorting_final/install/local_setup.bash'
+[1.823s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rcli/ws_sorting_final/install/setup.bash'
+[1.824s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rcli/ws_sorting_final/install/local_setup.zsh'
+[1.824s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rcli/ws_sorting_final/install/setup.zsh'

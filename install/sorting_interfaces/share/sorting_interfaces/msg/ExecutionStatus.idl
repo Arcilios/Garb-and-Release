@@ -1,0 +1,18 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from sorting_interfaces/msg/ExecutionStatus.msg
+// generated code does not contain a copyright notice
+
+
+module sorting_interfaces {
+  module msg {
+    struct ExecutionStatus {
+      string object_id;
+
+      string stage;
+
+      boolean success;
+
+      string message;
+    };
+  };
+};

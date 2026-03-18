@@ -1,0 +1,330 @@
+[0.008s] Invoking command in '/home/rcli/ws_sorting_final/build/sorting_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/rcli/ws_sorting_final/src/sorting_interfaces -DCMAKE_INSTALL_PREFIX=/home/rcli/ws_sorting_final/install/sorting_interfaces
+[0.083s] -- The C compiler identification is GNU 13.3.0
+[0.122s] -- The CXX compiler identification is GNU 13.3.0
+[0.136s] -- Detecting C compiler ABI info
+[0.214s] -- Detecting C compiler ABI info - done
+[0.219s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.219s] -- Detecting C compile features
+[0.219s] -- Detecting C compile features - done
+[0.226s] -- Detecting CXX compiler ABI info
+[0.301s] -- Detecting CXX compiler ABI info - done
+[0.307s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.307s] -- Detecting CXX compile features
+[0.307s] -- Detecting CXX compile features - done
+[0.311s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.428s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.545s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.556s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.621s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.672s] -- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.681s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.727s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[1.242s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[1.642s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.162s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.166s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[2.283s] -- Found PythonExtra: /usr/bin/python3  
+[2.602s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[2.652s] -- Configuring done (2.6s)
+[2.678s] -- Generating done (0.0s)
+[2.686s] -- Build files have been written to: /home/rcli/ws_sorting_final/build/sorting_interfaces
+[2.691s] Invoked command in '/home/rcli/ws_sorting_final/build/sorting_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/rcli/ws_sorting_final/src/sorting_interfaces -DCMAKE_INSTALL_PREFIX=/home/rcli/ws_sorting_final/install/sorting_interfaces
+[2.691s] Invoking command in '/home/rcli/ws_sorting_final/build/sorting_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/rcli/ws_sorting_final/build/sorting_interfaces -- -j24 -l24
+[2.731s] [  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[2.741s] [  1%] Built target ament_cmake_python_copy_sorting_interfaces
+[2.888s] running egg_info
+[2.889s] creating sorting_interfaces.egg-info
+[2.894s] [  1%] Built target sorting_interfaces__rosidl_generator_type_description
+[2.899s] writing sorting_interfaces.egg-info/PKG-INFO
+[2.899s] writing dependency_links to sorting_interfaces.egg-info/dependency_links.txt
+[2.899s] writing top-level names to sorting_interfaces.egg-info/top_level.txt
+[2.899s] writing manifest file 'sorting_interfaces.egg-info/SOURCES.txt'
+[2.902s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.912s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.938s] reading manifest file 'sorting_interfaces.egg-info/SOURCES.txt'
+[2.938s] writing manifest file 'sorting_interfaces.egg-info/SOURCES.txt'
+[2.958s] [  4%] Built target ament_cmake_python_build_sorting_interfaces_egg
+[3.165s] [  4%] Built target sorting_interfaces__cpp
+[3.210s] [ 12%] [32mBuilding C object CMakeFiles/sorting_interfaces__rosidl_generator_c.dir/rosidl_generator_c/sorting_interfaces/msg/detail/detected_object_array__functions.c.o[0m
+[3.210s] [ 12%] [32mBuilding C object CMakeFiles/sorting_interfaces__rosidl_generator_c.dir/rosidl_generator_c/sorting_interfaces/msg/detail/sort_task__functions.c.o[0m
+[3.210s] [ 12%] [32mBuilding C object CMakeFiles/sorting_interfaces__rosidl_generator_c.dir/rosidl_generator_c/sorting_interfaces/msg/detail/detected_object_array__description.c.o[0m
+[3.210s] [ 12%] [32mBuilding C object CMakeFiles/sorting_interfaces__rosidl_generator_c.dir/rosidl_generator_c/sorting_interfaces/msg/detail/sort_task__type_support.c.o[0m
+[3.210s] [ 12%] [32mBuilding C object CMakeFiles/sorting_interfaces__rosidl_generator_c.dir/rosidl_generator_c/sorting_interfaces/msg/detail/sort_task__description.c.o[0m
+[3.210s] [ 14%] [32mBuilding C object CMakeFiles/sorting_interfaces__rosidl_generator_c.dir/rosidl_generator_c/sorting_interfaces/msg/detail/execution_status__type_support.c.o[0m
+[3.211s] [ 15%] [32mBuilding C object CMakeFiles/sorting_interfaces__rosidl_generator_c.dir/rosidl_generator_c/sorting_interfaces/msg/detail/execution_status__functions.c.o[0m
+[3.211s] [ 17%] [32mBuilding C object CMakeFiles/sorting_interfaces__rosidl_generator_c.dir/rosidl_generator_c/sorting_interfaces/msg/detail/detected_object__functions.c.o[0m
+[3.211s] [ 18%] [32mBuilding C object CMakeFiles/sorting_interfaces__rosidl_generator_c.dir/rosidl_generator_c/sorting_interfaces/msg/detail/detected_object_array__type_support.c.o[0m
+[3.212s] [ 21%] [32mBuilding C object CMakeFiles/sorting_interfaces__rosidl_generator_c.dir/rosidl_generator_c/sorting_interfaces/msg/detail/execution_status__description.c.o[0m
+[3.212s] [ 21%] [32mBuilding C object CMakeFiles/sorting_interfaces__rosidl_generator_c.dir/rosidl_generator_c/sorting_interfaces/msg/detail/detected_object__description.c.o[0m
+[3.212s] [ 23%] [32mBuilding C object CMakeFiles/sorting_interfaces__rosidl_generator_c.dir/rosidl_generator_c/sorting_interfaces/msg/detail/detected_object__type_support.c.o[0m
+[3.385s] [ 25%] [32m[1mLinking C shared library libsorting_interfaces__rosidl_generator_c.so[0m
+[3.435s] [ 25%] Built target sorting_interfaces__rosidl_generator_c
+[3.442s] [ 26%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.442s] [ 31%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[3.442s] [ 31%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.442s] [ 31%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.444s] [ 32%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.445s] [ 34%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.694s] [ 35%] [32mBuilding CXX object CMakeFiles/sorting_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/sorting_interfaces/msg/sort_task__type_support.cpp.o[0m
+[3.695s] [ 39%] [32mBuilding CXX object CMakeFiles/sorting_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/sorting_interfaces/msg/execution_status__type_support.cpp.o[0m
+[3.695s] [ 39%] [32mBuilding CXX object CMakeFiles/sorting_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/sorting_interfaces/msg/detected_object_array__type_support.cpp.o[0m
+[3.696s] [ 40%] [32mBuilding CXX object CMakeFiles/sorting_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/sorting_interfaces/msg/detected_object__type_support.cpp.o[0m
+[3.696s] [ 42%] [32mBuilding CXX object CMakeFiles/sorting_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sorting_interfaces/msg/detected_object_array__type_support.cpp.o[0m
+[3.699s] [ 43%] [32mBuilding CXX object CMakeFiles/sorting_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sorting_interfaces/msg/execution_status__type_support.cpp.o[0m
+[3.700s] [ 45%] [32mBuilding CXX object CMakeFiles/sorting_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sorting_interfaces/msg/detected_object__type_support.cpp.o[0m
+[3.701s] [ 46%] [32mBuilding CXX object CMakeFiles/sorting_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sorting_interfaces/msg/sort_task__type_support.cpp.o[0m
+[3.720s] [ 48%] [32mBuilding CXX object CMakeFiles/sorting_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sorting_interfaces/msg/detail/detected_object_array__type_support.cpp.o[0m
+[3.720s] [ 50%] [32mBuilding CXX object CMakeFiles/sorting_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sorting_interfaces/msg/detail/execution_status__type_support.cpp.o[0m
+[3.723s] [ 51%] [32mBuilding CXX object CMakeFiles/sorting_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sorting_interfaces/msg/detail/detected_object__type_support.cpp.o[0m
+[3.724s] [ 53%] [32mBuilding CXX object CMakeFiles/sorting_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sorting_interfaces/msg/detail/sort_task__type_support.cpp.o[0m
+[3.750s] [ 57%] [32mBuilding C object CMakeFiles/sorting_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sorting_interfaces/msg/detail/execution_status__type_support.c.o[0m
+[3.750s] [ 57%] [32mBuilding C object CMakeFiles/sorting_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sorting_interfaces/msg/detail/detected_object_array__type_support.c.o[0m
+[3.750s] [ 57%] [32mBuilding C object CMakeFiles/sorting_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sorting_interfaces/msg/detail/detected_object__type_support.c.o[0m
+[3.750s] [ 59%] [32mBuilding C object CMakeFiles/sorting_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sorting_interfaces/msg/detail/sort_task__type_support.c.o[0m
+[3.789s] [ 60%] [32m[1mLinking CXX shared library libsorting_interfaces__rosidl_typesupport_c.so[0m
+[3.796s] [ 64%] [32mBuilding CXX object CMakeFiles/sorting_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sorting_interfaces/msg/detail/dds_fastrtps/detected_object__type_support.cpp.o[0m
+[3.796s] [ 64%] [32mBuilding CXX object CMakeFiles/sorting_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sorting_interfaces/msg/detail/dds_fastrtps/detected_object_array__type_support.cpp.o[0m
+[3.796s] [ 65%] [32mBuilding CXX object CMakeFiles/sorting_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sorting_interfaces/msg/detail/dds_fastrtps/sort_task__type_support.cpp.o[0m
+[3.801s] [ 67%] [32mBuilding CXX object CMakeFiles/sorting_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sorting_interfaces/msg/detail/dds_fastrtps/execution_status__type_support.cpp.o[0m
+[3.807s] [ 68%] [32mBuilding CXX object CMakeFiles/sorting_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sorting_interfaces/msg/detail/sort_task__type_support_c.cpp.o[0m
+[3.807s] [ 70%] [32mBuilding CXX object CMakeFiles/sorting_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sorting_interfaces/msg/detail/detected_object_array__type_support_c.cpp.o[0m
+[3.807s] [ 71%] [32mBuilding CXX object CMakeFiles/sorting_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sorting_interfaces/msg/detail/execution_status__type_support_c.cpp.o[0m
+[3.808s] [ 73%] [32mBuilding CXX object CMakeFiles/sorting_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sorting_interfaces/msg/detail/detected_object__type_support_c.cpp.o[0m
+[3.820s] [ 75%] [32m[1mLinking C shared library libsorting_interfaces__rosidl_typesupport_introspection_c.so[0m
+[3.844s] [ 75%] Built target sorting_interfaces__rosidl_typesupport_c
+[3.856s] [ 75%] Built target sorting_interfaces__rosidl_typesupport_introspection_c
+[4.276s] [ 76%] [32m[1mLinking CXX shared library libsorting_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[4.307s] [ 78%] [32m[1mLinking CXX shared library libsorting_interfaces__rosidl_typesupport_cpp.so[0m
+[4.353s] [ 78%] Built target sorting_interfaces__rosidl_typesupport_cpp
+[4.353s] [ 78%] Built target sorting_interfaces__rosidl_typesupport_introspection_cpp
+[4.453s] [ 79%] [32m[1mLinking CXX shared library libsorting_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[4.456s] [ 81%] [32m[1mLinking CXX shared library libsorting_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[4.504s] [ 81%] Built target sorting_interfaces__rosidl_typesupport_fastrtps_cpp
+[4.504s] [ 81%] Built target sorting_interfaces__rosidl_typesupport_fastrtps_c
+[4.523s] [ 81%] Built target sorting_interfaces
+[4.544s] [ 82%] [34m[1mGenerating Python code for ROS interfaces[0m
+[4.868s] [ 82%] Built target sorting_interfaces__py
+[4.890s] [ 84%] [32mBuilding C object CMakeFiles/sorting_interfaces__rosidl_generator_py.dir/rosidl_generator_py/sorting_interfaces/msg/_detected_object_s.c.o[0m
+[4.890s] [ 89%] [32mBuilding C object CMakeFiles/sorting_interfaces__rosidl_generator_py.dir/rosidl_generator_py/sorting_interfaces/msg/_detected_object_array_s.c.o[0m
+[4.890s] [ 89%] [32mBuilding C object CMakeFiles/sorting_interfaces__rosidl_generator_py.dir/rosidl_generator_py/sorting_interfaces/msg/_sort_task_s.c.o[0m
+[4.890s] [ 89%] [32mBuilding C object CMakeFiles/sorting_interfaces__rosidl_generator_py.dir/rosidl_generator_py/sorting_interfaces/msg/_execution_status_s.c.o[0m
+[5.057s] [ 90%] [32m[1mLinking C shared library libsorting_interfaces__rosidl_generator_py.so[0m
+[5.091s] [ 90%] Built target sorting_interfaces__rosidl_generator_py
+[5.113s] [ 92%] [32mBuilding C object CMakeFiles/sorting_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/sorting_interfaces/_sorting_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[5.114s] [ 95%] [32mBuilding C object CMakeFiles/sorting_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/sorting_interfaces/_sorting_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[5.114s] [ 95%] [32mBuilding C object CMakeFiles/sorting_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/sorting_interfaces/_sorting_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[5.187s] [ 96%] [32m[1mLinking C shared module rosidl_generator_py/sorting_interfaces/sorting_interfaces_s__rosidl_typesupport_c.so[0m
+[5.189s] [ 98%] [32m[1mLinking C shared module rosidl_generator_py/sorting_interfaces/sorting_interfaces_s__rosidl_typesupport_introspection_c.so[0m
+[5.191s] [100%] [32m[1mLinking C shared module rosidl_generator_py/sorting_interfaces/sorting_interfaces_s__rosidl_typesupport_fastrtps_c.so[0m
+[5.210s] [100%] Built target sorting_interfaces_s__rosidl_typesupport_c
+[5.215s] [100%] Built target sorting_interfaces_s__rosidl_typesupport_fastrtps_c
+[5.215s] [100%] Built target sorting_interfaces_s__rosidl_typesupport_introspection_c
+[5.225s] Invoked command in '/home/rcli/ws_sorting_final/build/sorting_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/rcli/ws_sorting_final/build/sorting_interfaces -- -j24 -l24
+[5.234s] Invoking command in '/home/rcli/ws_sorting_final/build/sorting_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/rcli/ws_sorting_final/build/sorting_interfaces
+[5.239s] -- Install configuration: ""
+[5.239s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/share/ament_index/resource_index/rosidl_interfaces/sorting_interfaces
+[5.239s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/share/sorting_interfaces/msg/DetectedObject.json
+[5.239s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/share/sorting_interfaces/msg/DetectedObjectArray.json
+[5.239s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/share/sorting_interfaces/msg/SortTask.json
+[5.239s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/share/sorting_interfaces/msg/ExecutionStatus.json
+[5.239s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/include/sorting_interfaces/sorting_interfaces
+[5.239s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/include/sorting_interfaces/sorting_interfaces/msg
+[5.239s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/include/sorting_interfaces/sorting_interfaces/msg/detail
+[5.240s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/include/sorting_interfaces/sorting_interfaces/msg/detail/detected_object__struct.h
+[5.240s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/include/sorting_interfaces/sorting_interfaces/msg/detail/detected_object__functions.c
+[5.240s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/include/sorting_interfaces/sorting_interfaces/msg/detail/detected_object_array__description.c
+[5.240s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/include/sorting_interfaces/sorting_interfaces/msg/detail/detected_object_array__functions.c
+[5.240s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/include/sorting_interfaces/sorting_interfaces/msg/detail/detected_object_array__type_support.c
+[5.240s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/include/sorting_interfaces/sorting_interfaces/msg/detail/detected_object__description.c
+[5.240s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/include/sorting_interfaces/sorting_interfaces/msg/detail/sort_task__functions.c
+[5.240s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/include/sorting_interfaces/sorting_interfaces/msg/detail/execution_status__type_support.c
+[5.240s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/include/sorting_interfaces/sorting_interfaces/msg/detail/execution_status__description.c
+[5.240s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/include/sorting_interfaces/sorting_interfaces/msg/detail/detected_object__type_support.h
+[5.241s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/include/sorting_interfaces/sorting_interfaces/msg/detail/sort_task__struct.h
+[5.241s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/include/sorting_interfaces/sorting_interfaces/msg/detail/sort_task__description.c
+[5.241s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/include/sorting_interfaces/sorting_interfaces/msg/detail/sort_task__functions.h
+[5.241s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/include/sorting_interfaces/sorting_interfaces/msg/detail/execution_status__functions.h
+[5.241s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/include/sorting_interfaces/sorting_interfaces/msg/detail/execution_status__functions.c
+[5.241s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/include/sorting_interfaces/sorting_interfaces/msg/detail/detected_object_array__functions.h
+[5.241s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/include/sorting_interfaces/sorting_interfaces/msg/detail/execution_status__struct.h
+[5.241s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/include/sorting_interfaces/sorting_interfaces/msg/detail/detected_object__functions.h
+[5.241s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/include/sorting_interfaces/sorting_interfaces/msg/detail/detected_object_array__type_support.h
+[5.241s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/include/sorting_interfaces/sorting_interfaces/msg/detail/execution_status__type_support.h
+[5.241s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/include/sorting_interfaces/sorting_interfaces/msg/detail/sort_task__type_support.h
+[5.241s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/include/sorting_interfaces/sorting_interfaces/msg/detail/sort_task__type_support.c
+[5.241s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/include/sorting_interfaces/sorting_interfaces/msg/detail/detected_object_array__struct.h
+[5.241s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/include/sorting_interfaces/sorting_interfaces/msg/detail/detected_object__type_support.c
+[5.241s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/include/sorting_interfaces/sorting_interfaces/msg/execution_status.h
+[5.241s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/include/sorting_interfaces/sorting_interfaces/msg/rosidl_generator_c__visibility_control.h
+[5.241s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/include/sorting_interfaces/sorting_interfaces/msg/sort_task.h
+[5.242s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/include/sorting_interfaces/sorting_interfaces/msg/detected_object_array.h
+[5.242s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/include/sorting_interfaces/sorting_interfaces/msg/detected_object.h
+[5.242s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/share/sorting_interfaces/environment/library_path.sh
+[5.242s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/share/sorting_interfaces/environment/library_path.dsv
+[5.242s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/lib/libsorting_interfaces__rosidl_generator_c.so
+[5.242s] -- Set non-toolchain portion of runtime path of "/home/rcli/ws_sorting_final/install/sorting_interfaces/lib/libsorting_interfaces__rosidl_generator_c.so" to ""
+[5.242s] -- Up-to-date: /home/rcli/ws_sorting_final/install/sorting_interfaces/include/sorting_interfaces/sorting_interfaces
+[5.242s] -- Up-to-date: /home/rcli/ws_sorting_final/install/sorting_interfaces/include/sorting_interfaces/sorting_interfaces/msg
+[5.242s] -- Up-to-date: /home/rcli/ws_sorting_final/install/sorting_interfaces/include/sorting_interfaces/sorting_interfaces/msg/detail
+[5.242s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/include/sorting_interfaces/sorting_interfaces/msg/detail/detected_object__rosidl_typesupport_fastrtps_c.h
+[5.242s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/include/sorting_interfaces/sorting_interfaces/msg/detail/detected_object_array__rosidl_typesupport_fastrtps_c.h
+[5.242s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/include/sorting_interfaces/sorting_interfaces/msg/detail/execution_status__rosidl_typesupport_fastrtps_c.h
+[5.242s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/include/sorting_interfaces/sorting_interfaces/msg/detail/sort_task__rosidl_typesupport_fastrtps_c.h
+[5.242s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/include/sorting_interfaces/sorting_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[5.242s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/lib/libsorting_interfaces__rosidl_typesupport_fastrtps_c.so
+[5.242s] -- Set non-toolchain portion of runtime path of "/home/rcli/ws_sorting_final/install/sorting_interfaces/lib/libsorting_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[5.242s] -- Up-to-date: /home/rcli/ws_sorting_final/install/sorting_interfaces/include/sorting_interfaces/sorting_interfaces
+[5.242s] -- Up-to-date: /home/rcli/ws_sorting_final/install/sorting_interfaces/include/sorting_interfaces/sorting_interfaces/msg
+[5.242s] -- Up-to-date: /home/rcli/ws_sorting_final/install/sorting_interfaces/include/sorting_interfaces/sorting_interfaces/msg/detail
+[5.242s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/include/sorting_interfaces/sorting_interfaces/msg/detail/detected_object_array__type_support.c
+[5.242s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/include/sorting_interfaces/sorting_interfaces/msg/detail/execution_status__type_support.c
+[5.242s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/include/sorting_interfaces/sorting_interfaces/msg/detail/detected_object__rosidl_typesupport_introspection_c.h
+[5.242s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/include/sorting_interfaces/sorting_interfaces/msg/detail/sort_task__rosidl_typesupport_introspection_c.h
+[5.243s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/include/sorting_interfaces/sorting_interfaces/msg/detail/execution_status__rosidl_typesupport_introspection_c.h
+[5.243s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/include/sorting_interfaces/sorting_interfaces/msg/detail/detected_object_array__rosidl_typesupport_introspection_c.h
+[5.243s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/include/sorting_interfaces/sorting_interfaces/msg/detail/sort_task__type_support.c
+[5.243s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/include/sorting_interfaces/sorting_interfaces/msg/detail/detected_object__type_support.c
+[5.243s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/include/sorting_interfaces/sorting_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[5.243s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/lib/libsorting_interfaces__rosidl_typesupport_introspection_c.so
+[5.243s] -- Set non-toolchain portion of runtime path of "/home/rcli/ws_sorting_final/install/sorting_interfaces/lib/libsorting_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[5.243s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/lib/libsorting_interfaces__rosidl_typesupport_c.so
+[5.243s] -- Set non-toolchain portion of runtime path of "/home/rcli/ws_sorting_final/install/sorting_interfaces/lib/libsorting_interfaces__rosidl_typesupport_c.so" to ""
+[5.243s] -- Up-to-date: /home/rcli/ws_sorting_final/install/sorting_interfaces/include/sorting_interfaces/sorting_interfaces
+[5.243s] -- Up-to-date: /home/rcli/ws_sorting_final/install/sorting_interfaces/include/sorting_interfaces/sorting_interfaces/msg
+[5.243s] -- Up-to-date: /home/rcli/ws_sorting_final/install/sorting_interfaces/include/sorting_interfaces/sorting_interfaces/msg/detail
+[5.243s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/include/sorting_interfaces/sorting_interfaces/msg/detail/execution_status__struct.hpp
+[5.243s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/include/sorting_interfaces/sorting_interfaces/msg/detail/sort_task__type_support.hpp
+[5.243s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/include/sorting_interfaces/sorting_interfaces/msg/detail/sort_task__builder.hpp
+[5.243s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/include/sorting_interfaces/sorting_interfaces/msg/detail/detected_object_array__type_support.hpp
+[5.243s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/include/sorting_interfaces/sorting_interfaces/msg/detail/detected_object__traits.hpp
+[5.243s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/include/sorting_interfaces/sorting_interfaces/msg/detail/detected_object__struct.hpp
+[5.243s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/include/sorting_interfaces/sorting_interfaces/msg/detail/execution_status__builder.hpp
+[5.243s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/include/sorting_interfaces/sorting_interfaces/msg/detail/execution_status__type_support.hpp
+[5.243s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/include/sorting_interfaces/sorting_interfaces/msg/detail/detected_object_array__builder.hpp
+[5.243s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/include/sorting_interfaces/sorting_interfaces/msg/detail/detected_object_array__traits.hpp
+[5.243s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/include/sorting_interfaces/sorting_interfaces/msg/detail/detected_object__type_support.hpp
+[5.243s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/include/sorting_interfaces/sorting_interfaces/msg/detail/detected_object_array__struct.hpp
+[5.244s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/include/sorting_interfaces/sorting_interfaces/msg/detail/sort_task__traits.hpp
+[5.244s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/include/sorting_interfaces/sorting_interfaces/msg/detail/execution_status__traits.hpp
+[5.244s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/include/sorting_interfaces/sorting_interfaces/msg/detail/detected_object__builder.hpp
+[5.244s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/include/sorting_interfaces/sorting_interfaces/msg/detail/sort_task__struct.hpp
+[5.244s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/include/sorting_interfaces/sorting_interfaces/msg/detected_object_array.hpp
+[5.244s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/include/sorting_interfaces/sorting_interfaces/msg/execution_status.hpp
+[5.244s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/include/sorting_interfaces/sorting_interfaces/msg/detected_object.hpp
+[5.244s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/include/sorting_interfaces/sorting_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[5.244s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/include/sorting_interfaces/sorting_interfaces/msg/sort_task.hpp
+[5.244s] -- Up-to-date: /home/rcli/ws_sorting_final/install/sorting_interfaces/include/sorting_interfaces/sorting_interfaces
+[5.244s] -- Up-to-date: /home/rcli/ws_sorting_final/install/sorting_interfaces/include/sorting_interfaces/sorting_interfaces/msg
+[5.244s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/include/sorting_interfaces/sorting_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[5.244s] -- Up-to-date: /home/rcli/ws_sorting_final/install/sorting_interfaces/include/sorting_interfaces/sorting_interfaces/msg/detail
+[5.244s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/include/sorting_interfaces/sorting_interfaces/msg/detail/execution_status__rosidl_typesupport_fastrtps_cpp.hpp
+[5.244s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/include/sorting_interfaces/sorting_interfaces/msg/detail/detected_object__rosidl_typesupport_fastrtps_cpp.hpp
+[5.244s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/include/sorting_interfaces/sorting_interfaces/msg/detail/sort_task__rosidl_typesupport_fastrtps_cpp.hpp
+[5.244s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/include/sorting_interfaces/sorting_interfaces/msg/detail/detected_object_array__rosidl_typesupport_fastrtps_cpp.hpp
+[5.244s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/include/sorting_interfaces/sorting_interfaces/msg/detail/dds_fastrtps
+[5.244s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/lib/libsorting_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[5.244s] -- Set non-toolchain portion of runtime path of "/home/rcli/ws_sorting_final/install/sorting_interfaces/lib/libsorting_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[5.244s] -- Up-to-date: /home/rcli/ws_sorting_final/install/sorting_interfaces/include/sorting_interfaces/sorting_interfaces
+[5.244s] -- Up-to-date: /home/rcli/ws_sorting_final/install/sorting_interfaces/include/sorting_interfaces/sorting_interfaces/msg
+[5.244s] -- Up-to-date: /home/rcli/ws_sorting_final/install/sorting_interfaces/include/sorting_interfaces/sorting_interfaces/msg/detail
+[5.244s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/include/sorting_interfaces/sorting_interfaces/msg/detail/execution_status__rosidl_typesupport_introspection_cpp.hpp
+[5.244s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/include/sorting_interfaces/sorting_interfaces/msg/detail/execution_status__type_support.cpp
+[5.245s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/include/sorting_interfaces/sorting_interfaces/msg/detail/sort_task__rosidl_typesupport_introspection_cpp.hpp
+[5.245s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/include/sorting_interfaces/sorting_interfaces/msg/detail/detected_object_array__rosidl_typesupport_introspection_cpp.hpp
+[5.245s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/include/sorting_interfaces/sorting_interfaces/msg/detail/sort_task__type_support.cpp
+[5.245s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/include/sorting_interfaces/sorting_interfaces/msg/detail/detected_object_array__type_support.cpp
+[5.245s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/include/sorting_interfaces/sorting_interfaces/msg/detail/detected_object__type_support.cpp
+[5.245s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/include/sorting_interfaces/sorting_interfaces/msg/detail/detected_object__rosidl_typesupport_introspection_cpp.hpp
+[5.245s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/lib/libsorting_interfaces__rosidl_typesupport_introspection_cpp.so
+[5.245s] -- Set non-toolchain portion of runtime path of "/home/rcli/ws_sorting_final/install/sorting_interfaces/lib/libsorting_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[5.245s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/lib/libsorting_interfaces__rosidl_typesupport_cpp.so
+[5.245s] -- Set non-toolchain portion of runtime path of "/home/rcli/ws_sorting_final/install/sorting_interfaces/lib/libsorting_interfaces__rosidl_typesupport_cpp.so" to ""
+[5.245s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/share/sorting_interfaces/environment/pythonpath.sh
+[5.245s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/share/sorting_interfaces/environment/pythonpath.dsv
+[5.245s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/lib/python3.12/site-packages/sorting_interfaces-0.0.0-py3.12.egg-info
+[5.245s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/lib/python3.12/site-packages/sorting_interfaces-0.0.0-py3.12.egg-info/top_level.txt
+[5.245s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/lib/python3.12/site-packages/sorting_interfaces-0.0.0-py3.12.egg-info/PKG-INFO
+[5.245s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/lib/python3.12/site-packages/sorting_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt
+[5.245s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/lib/python3.12/site-packages/sorting_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt
+[5.245s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/lib/python3.12/site-packages/sorting_interfaces
+[5.245s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/lib/python3.12/site-packages/sorting_interfaces/msg
+[5.245s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/lib/python3.12/site-packages/sorting_interfaces/msg/_detected_object_array_s.c
+[5.245s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/lib/python3.12/site-packages/sorting_interfaces/msg/_execution_status.py
+[5.245s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/lib/python3.12/site-packages/sorting_interfaces/msg/_detected_object.py
+[5.245s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/lib/python3.12/site-packages/sorting_interfaces/msg/_sort_task_s.c
+[5.245s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/lib/python3.12/site-packages/sorting_interfaces/msg/_detected_object_array.py
+[5.245s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/lib/python3.12/site-packages/sorting_interfaces/msg/_detected_object_s.c
+[5.245s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/lib/python3.12/site-packages/sorting_interfaces/msg/_execution_status_s.c
+[5.246s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/lib/python3.12/site-packages/sorting_interfaces/msg/__init__.py
+[5.246s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/lib/python3.12/site-packages/sorting_interfaces/msg/_sort_task.py
+[5.246s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/lib/python3.12/site-packages/sorting_interfaces/_sorting_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[5.246s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/lib/python3.12/site-packages/sorting_interfaces/_sorting_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[5.246s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/lib/python3.12/site-packages/sorting_interfaces/sorting_interfaces_s__rosidl_typesupport_c.so
+[5.246s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/lib/python3.12/site-packages/sorting_interfaces/sorting_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[5.246s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/lib/python3.12/site-packages/sorting_interfaces/sorting_interfaces_s__rosidl_typesupport_introspection_c.so
+[5.246s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/lib/python3.12/site-packages/sorting_interfaces/__init__.py
+[5.246s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/lib/python3.12/site-packages/sorting_interfaces/_sorting_interfaces_s.ep.rosidl_typesupport_c.c
+[5.286s] Listing '/home/rcli/ws_sorting_final/install/sorting_interfaces/lib/python3.12/site-packages/sorting_interfaces'...
+[5.286s] Compiling '/home/rcli/ws_sorting_final/install/sorting_interfaces/lib/python3.12/site-packages/sorting_interfaces/__init__.py'...
+[5.286s] Listing '/home/rcli/ws_sorting_final/install/sorting_interfaces/lib/python3.12/site-packages/sorting_interfaces/msg'...
+[5.286s] Compiling '/home/rcli/ws_sorting_final/install/sorting_interfaces/lib/python3.12/site-packages/sorting_interfaces/msg/__init__.py'...
+[5.286s] Compiling '/home/rcli/ws_sorting_final/install/sorting_interfaces/lib/python3.12/site-packages/sorting_interfaces/msg/_detected_object.py'...
+[5.286s] Compiling '/home/rcli/ws_sorting_final/install/sorting_interfaces/lib/python3.12/site-packages/sorting_interfaces/msg/_detected_object_array.py'...
+[5.286s] Compiling '/home/rcli/ws_sorting_final/install/sorting_interfaces/lib/python3.12/site-packages/sorting_interfaces/msg/_execution_status.py'...
+[5.286s] Compiling '/home/rcli/ws_sorting_final/install/sorting_interfaces/lib/python3.12/site-packages/sorting_interfaces/msg/_sort_task.py'...
+[5.290s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/lib/python3.12/site-packages/sorting_interfaces/sorting_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[5.290s] -- Set non-toolchain portion of runtime path of "/home/rcli/ws_sorting_final/install/sorting_interfaces/lib/python3.12/site-packages/sorting_interfaces/sorting_interfaces_s__rosidl_typesupport_fastrtps_c.so" to ""
+[5.290s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/lib/python3.12/site-packages/sorting_interfaces/sorting_interfaces_s__rosidl_typesupport_introspection_c.so
+[5.290s] -- Set non-toolchain portion of runtime path of "/home/rcli/ws_sorting_final/install/sorting_interfaces/lib/python3.12/site-packages/sorting_interfaces/sorting_interfaces_s__rosidl_typesupport_introspection_c.so" to ""
+[5.290s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/lib/python3.12/site-packages/sorting_interfaces/sorting_interfaces_s__rosidl_typesupport_c.so
+[5.290s] -- Set non-toolchain portion of runtime path of "/home/rcli/ws_sorting_final/install/sorting_interfaces/lib/python3.12/site-packages/sorting_interfaces/sorting_interfaces_s__rosidl_typesupport_c.so" to ""
+[5.290s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/lib/libsorting_interfaces__rosidl_generator_py.so
+[5.291s] -- Set non-toolchain portion of runtime path of "/home/rcli/ws_sorting_final/install/sorting_interfaces/lib/libsorting_interfaces__rosidl_generator_py.so" to ""
+[5.291s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/share/sorting_interfaces/msg/DetectedObject.idl
+[5.291s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/share/sorting_interfaces/msg/DetectedObjectArray.idl
+[5.291s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/share/sorting_interfaces/msg/SortTask.idl
+[5.291s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/share/sorting_interfaces/msg/ExecutionStatus.idl
+[5.291s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/share/sorting_interfaces/msg/DetectedObject.msg
+[5.291s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/share/sorting_interfaces/msg/DetectedObjectArray.msg
+[5.291s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/share/sorting_interfaces/msg/SortTask.msg
+[5.291s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/share/sorting_interfaces/msg/ExecutionStatus.msg
+[5.291s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/share/ament_index/resource_index/package_run_dependencies/sorting_interfaces
+[5.291s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/share/ament_index/resource_index/parent_prefix_path/sorting_interfaces
+[5.291s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/share/sorting_interfaces/environment/ament_prefix_path.sh
+[5.291s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/share/sorting_interfaces/environment/ament_prefix_path.dsv
+[5.291s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/share/sorting_interfaces/environment/path.sh
+[5.291s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/share/sorting_interfaces/environment/path.dsv
+[5.291s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/share/sorting_interfaces/local_setup.bash
+[5.291s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/share/sorting_interfaces/local_setup.sh
+[5.291s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/share/sorting_interfaces/local_setup.zsh
+[5.291s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/share/sorting_interfaces/local_setup.dsv
+[5.291s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/share/sorting_interfaces/package.dsv
+[5.292s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/share/ament_index/resource_index/packages/sorting_interfaces
+[5.292s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/share/sorting_interfaces/cmake/export_sorting_interfaces__rosidl_generator_cExport.cmake
+[5.292s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/share/sorting_interfaces/cmake/export_sorting_interfaces__rosidl_generator_cExport-noconfig.cmake
+[5.292s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/share/sorting_interfaces/cmake/export_sorting_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[5.292s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/share/sorting_interfaces/cmake/export_sorting_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[5.292s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/share/sorting_interfaces/cmake/sorting_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[5.292s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/share/sorting_interfaces/cmake/sorting_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[5.292s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/share/sorting_interfaces/cmake/sorting_interfaces__rosidl_typesupport_cExport.cmake
+[5.292s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/share/sorting_interfaces/cmake/sorting_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[5.292s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/share/sorting_interfaces/cmake/export_sorting_interfaces__rosidl_generator_cppExport.cmake
+[5.292s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/share/sorting_interfaces/cmake/export_sorting_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[5.292s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/share/sorting_interfaces/cmake/export_sorting_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[5.292s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/share/sorting_interfaces/cmake/sorting_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[5.292s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/share/sorting_interfaces/cmake/sorting_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[5.292s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/share/sorting_interfaces/cmake/sorting_interfaces__rosidl_typesupport_cppExport.cmake
+[5.292s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/share/sorting_interfaces/cmake/sorting_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[5.292s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/share/sorting_interfaces/cmake/export_sorting_interfaces__rosidl_generator_pyExport.cmake
+[5.292s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/share/sorting_interfaces/cmake/export_sorting_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[5.292s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/share/sorting_interfaces/cmake/rosidl_cmake-extras.cmake
+[5.292s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/share/sorting_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.292s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/share/sorting_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.292s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/share/sorting_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[5.292s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/share/sorting_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[5.293s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/share/sorting_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[5.293s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/share/sorting_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[5.293s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/share/sorting_interfaces/cmake/sorting_interfacesConfig.cmake
+[5.293s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/share/sorting_interfaces/cmake/sorting_interfacesConfig-version.cmake
+[5.293s] -- Installing: /home/rcli/ws_sorting_final/install/sorting_interfaces/share/sorting_interfaces/package.xml
+[5.294s] Invoked command in '/home/rcli/ws_sorting_final/build/sorting_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/rcli/ws_sorting_final/build/sorting_interfaces

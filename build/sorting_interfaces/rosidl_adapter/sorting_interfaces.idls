@@ -1,0 +1,4 @@
+/home/rcli/ws_sorting_final/build/sorting_interfaces/rosidl_adapter/sorting_interfaces:msg/DetectedObject.idl
+/home/rcli/ws_sorting_final/build/sorting_interfaces/rosidl_adapter/sorting_interfaces:msg/DetectedObjectArray.idl
+/home/rcli/ws_sorting_final/build/sorting_interfaces/rosidl_adapter/sorting_interfaces:msg/SortTask.idl
+/home/rcli/ws_sorting_final/build/sorting_interfaces/rosidl_adapter/sorting_interfaces:msg/ExecutionStatus.idl

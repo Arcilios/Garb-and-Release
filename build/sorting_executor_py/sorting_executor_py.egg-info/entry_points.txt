@@ -1,0 +1,2 @@
+[console_scripts]
+sorting_executor = sorting_executor_py.sorting_executor:main

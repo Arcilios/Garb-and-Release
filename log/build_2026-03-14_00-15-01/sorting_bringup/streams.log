@@ -1,0 +1,33 @@
+[1.052s] Invoking command in '/home/rcli/ws_sorting_final/src/sorting_bringup': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/rcli/ws_sorting_final/build/sorting_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rcli/ws_sorting_final/install/sorting_bringup/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sorting_bringup build --build-base /home/rcli/ws_sorting_final/build/sorting_bringup/build install --record /home/rcli/ws_sorting_final/build/sorting_bringup/install.log --single-version-externally-managed install_data
+[1.258s] running egg_info
+[1.258s] creating ../../build/sorting_bringup/sorting_bringup.egg-info
+[1.272s] writing ../../build/sorting_bringup/sorting_bringup.egg-info/PKG-INFO
+[1.273s] writing dependency_links to ../../build/sorting_bringup/sorting_bringup.egg-info/dependency_links.txt
+[1.273s] writing requirements to ../../build/sorting_bringup/sorting_bringup.egg-info/requires.txt
+[1.273s] writing top-level names to ../../build/sorting_bringup/sorting_bringup.egg-info/top_level.txt
+[1.273s] writing manifest file '../../build/sorting_bringup/sorting_bringup.egg-info/SOURCES.txt'
+[1.302s] reading manifest file '../../build/sorting_bringup/sorting_bringup.egg-info/SOURCES.txt'
+[1.303s] adding license file 'LICENSE'
+[1.303s] writing manifest file '../../build/sorting_bringup/sorting_bringup.egg-info/SOURCES.txt'
+[1.303s] running build
+[1.303s] running build_py
+[1.303s] creating /home/rcli/ws_sorting_final/build/sorting_bringup/build
+[1.303s] creating /home/rcli/ws_sorting_final/build/sorting_bringup/build/lib
+[1.304s] creating /home/rcli/ws_sorting_final/build/sorting_bringup/build/lib/sorting_bringup
+[1.304s] copying sorting_bringup/__init__.py -> /home/rcli/ws_sorting_final/build/sorting_bringup/build/lib/sorting_bringup
+[1.304s] running install
+[1.309s] running install_lib
+[1.324s] creating /home/rcli/ws_sorting_final/install/sorting_bringup/lib/python3.12/site-packages/sorting_bringup
+[1.324s] copying /home/rcli/ws_sorting_final/build/sorting_bringup/build/lib/sorting_bringup/__init__.py -> /home/rcli/ws_sorting_final/install/sorting_bringup/lib/python3.12/site-packages/sorting_bringup
+[1.324s] byte-compiling /home/rcli/ws_sorting_final/install/sorting_bringup/lib/python3.12/site-packages/sorting_bringup/__init__.py to __init__.cpython-312.pyc
+[1.324s] running install_data
+[1.324s] creating /home/rcli/ws_sorting_final/install/sorting_bringup/share/ament_index
+[1.324s] creating /home/rcli/ws_sorting_final/install/sorting_bringup/share/ament_index/resource_index
+[1.325s] creating /home/rcli/ws_sorting_final/install/sorting_bringup/share/ament_index/resource_index/packages
+[1.325s] copying resource/sorting_bringup -> /home/rcli/ws_sorting_final/install/sorting_bringup/share/ament_index/resource_index/packages
+[1.325s] copying package.xml -> /home/rcli/ws_sorting_final/install/sorting_bringup/share/sorting_bringup
+[1.325s] running install_egg_info
+[1.342s] Copying ../../build/sorting_bringup/sorting_bringup.egg-info to /home/rcli/ws_sorting_final/install/sorting_bringup/lib/python3.12/site-packages/sorting_bringup-0.0.0-py3.12.egg-info
+[1.343s] running install_scripts
+[1.436s] writing list of installed files to '/home/rcli/ws_sorting_final/build/sorting_bringup/install.log'
+[1.457s] Invoked command in '/home/rcli/ws_sorting_final/src/sorting_bringup' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/rcli/ws_sorting_final/build/sorting_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rcli/ws_sorting_final/install/sorting_bringup/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sorting_bringup build --build-base /home/rcli/ws_sorting_final/build/sorting_bringup/build install --record /home/rcli/ws_sorting_final/build/sorting_bringup/install.log --single-version-externally-managed install_data

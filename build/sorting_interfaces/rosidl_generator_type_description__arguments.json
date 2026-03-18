@@ -1,0 +1,15 @@
+{
+  "package_name": "sorting_interfaces",
+  "output_dir": "/home/rcli/ws_sorting_final/build/sorting_interfaces/rosidl_generator_type_description/sorting_interfaces",
+  "idl_tuples": [
+    "/home/rcli/ws_sorting_final/build/sorting_interfaces/rosidl_adapter/sorting_interfaces:msg/DetectedObject.idl",
+    "/home/rcli/ws_sorting_final/build/sorting_interfaces/rosidl_adapter/sorting_interfaces:msg/DetectedObjectArray.idl",
+    "/home/rcli/ws_sorting_final/build/sorting_interfaces/rosidl_adapter/sorting_interfaces:msg/SortTask.idl",
+    "/home/rcli/ws_sorting_final/build/sorting_interfaces/rosidl_adapter/sorting_interfaces:msg/ExecutionStatus.idl"
+  ],
+  "include_paths": [
+    "std_msgs:/opt/ros/jazzy/share/std_msgs",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces",
+    "geometry_msgs:/opt/ros/jazzy/share/geometry_msgs"
+  ]
+}

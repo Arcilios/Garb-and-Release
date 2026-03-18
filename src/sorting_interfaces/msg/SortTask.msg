@@ -1,0 +1,8 @@
+string object_id
+string class_name
+string target_bin
+geometry_msgs/PoseStamped pick_pose
+geometry_msgs/PoseStamped pregrasp_pose
+geometry_msgs/PoseStamped lift_pose
+geometry_msgs/PoseStamped place_pose
+geometry_msgs/PoseStamped retreat_pose

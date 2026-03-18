@@ -1,0 +1,9 @@
+{
+  "package_name": "sorting_interfaces",
+  "non_idl_tuples": [
+    "/home/rcli/ws_sorting_final/src/sorting_interfaces:msg/DetectedObject.msg",
+    "/home/rcli/ws_sorting_final/src/sorting_interfaces:msg/DetectedObjectArray.msg",
+    "/home/rcli/ws_sorting_final/src/sorting_interfaces:msg/SortTask.msg",
+    "/home/rcli/ws_sorting_final/src/sorting_interfaces:msg/ExecutionStatus.msg"
+  ]
+}

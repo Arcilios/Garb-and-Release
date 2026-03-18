@@ -1,0 +1,25 @@
+[0.934s] Invoking command in '/home/rcli/ws_sorting_final/src/sorting_perception': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/rcli/ws_sorting_final/build/sorting_perception/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rcli/ws_sorting_final/install/sorting_perception/lib/python3.12/site-packages:/home/rcli/ws_sorting_final/install/sorting_interfaces/lib/python3.12/site-packages:/home/rcli/ws_sorting_final/install/sorting_scene/lib/python3.12/site-packages:/home/rcli/ws_sorting_final/install/sorting_perception/lib/python3.12/site-packages:/home/rcli/ws_sorting_final/install/sorting_orchestrator/lib/python3.12/site-packages:/home/rcli/ws_sorting_final/install/sorting_executor_py/lib/python3.12/site-packages:/home/rcli/ws_sorting_final/install/sorting_gazebo/lib/python3.12/site-packages:/home/rcli/ws_sorting_final/install/sorting_bringup/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sorting_perception build --build-base /home/rcli/ws_sorting_final/build/sorting_perception/build install --record /home/rcli/ws_sorting_final/build/sorting_perception/install.log --single-version-externally-managed install_data
+[1.112s] running egg_info
+[1.124s] writing ../../build/sorting_perception/sorting_perception.egg-info/PKG-INFO
+[1.124s] writing dependency_links to ../../build/sorting_perception/sorting_perception.egg-info/dependency_links.txt
+[1.125s] writing entry points to ../../build/sorting_perception/sorting_perception.egg-info/entry_points.txt
+[1.125s] writing requirements to ../../build/sorting_perception/sorting_perception.egg-info/requires.txt
+[1.125s] writing top-level names to ../../build/sorting_perception/sorting_perception.egg-info/top_level.txt
+[1.150s] reading manifest file '../../build/sorting_perception/sorting_perception.egg-info/SOURCES.txt'
+[1.150s] adding license file 'LICENSE'
+[1.151s] writing manifest file '../../build/sorting_perception/sorting_perception.egg-info/SOURCES.txt'
+[1.151s] running build
+[1.151s] running build_py
+[1.151s] copying sorting_perception/real_perception.py -> /home/rcli/ws_sorting_final/build/sorting_perception/build/lib/sorting_perception
+[1.151s] running install
+[1.156s] running install_lib
+[1.169s] copying /home/rcli/ws_sorting_final/build/sorting_perception/build/lib/sorting_perception/real_perception.py -> /home/rcli/ws_sorting_final/install/sorting_perception/lib/python3.12/site-packages/sorting_perception
+[1.169s] byte-compiling /home/rcli/ws_sorting_final/install/sorting_perception/lib/python3.12/site-packages/sorting_perception/real_perception.py to real_perception.cpython-312.pyc
+[1.171s] running install_data
+[1.171s] running install_egg_info
+[1.185s] removing '/home/rcli/ws_sorting_final/install/sorting_perception/lib/python3.12/site-packages/sorting_perception-0.0.0-py3.12.egg-info' (and everything under it)
+[1.185s] Copying ../../build/sorting_perception/sorting_perception.egg-info to /home/rcli/ws_sorting_final/install/sorting_perception/lib/python3.12/site-packages/sorting_perception-0.0.0-py3.12.egg-info
+[1.186s] running install_scripts
+[1.275s] Installing real_perception script to /home/rcli/ws_sorting_final/install/sorting_perception/lib/sorting_perception
+[1.275s] writing list of installed files to '/home/rcli/ws_sorting_final/build/sorting_perception/install.log'
+[1.295s] Invoked command in '/home/rcli/ws_sorting_final/src/sorting_perception' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/rcli/ws_sorting_final/build/sorting_perception/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rcli/ws_sorting_final/install/sorting_perception/lib/python3.12/site-packages:/home/rcli/ws_sorting_final/install/sorting_interfaces/lib/python3.12/site-packages:/home/rcli/ws_sorting_final/install/sorting_scene/lib/python3.12/site-packages:/home/rcli/ws_sorting_final/install/sorting_perception/lib/python3.12/site-packages:/home/rcli/ws_sorting_final/install/sorting_orchestrator/lib/python3.12/site-packages:/home/rcli/ws_sorting_final/install/sorting_executor_py/lib/python3.12/site-packages:/home/rcli/ws_sorting_final/install/sorting_gazebo/lib/python3.12/site-packages:/home/rcli/ws_sorting_final/install/sorting_bringup/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sorting_perception build --build-base /home/rcli/ws_sorting_final/build/sorting_perception/build install --record /home/rcli/ws_sorting_final/build/sorting_perception/install.log --single-version-externally-managed install_data

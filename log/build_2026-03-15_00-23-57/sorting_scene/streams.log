@@ -1,0 +1,20 @@
+[1.292s] Invoking command in '/home/rcli/ws_sorting_final/src/sorting_scene': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/rcli/ws_sorting_final/build/sorting_scene/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rcli/ws_sorting_final/install/sorting_scene/lib/python3.12/site-packages:/home/rcli/ws_sorting_final/install/sorting_interfaces/lib/python3.12/site-packages:/home/rcli/ws_sorting_final/install/sorting_scene/lib/python3.12/site-packages:/home/rcli/ws_sorting_final/install/sorting_perception/lib/python3.12/site-packages:/home/rcli/ws_sorting_final/install/sorting_orchestrator/lib/python3.12/site-packages:/home/rcli/ws_sorting_final/install/sorting_executor_py/lib/python3.12/site-packages:/home/rcli/ws_sorting_final/install/sorting_gazebo/lib/python3.12/site-packages:/home/rcli/ws_sorting_final/install/sorting_bringup/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sorting_scene build --build-base /home/rcli/ws_sorting_final/build/sorting_scene/build install --record /home/rcli/ws_sorting_final/build/sorting_scene/install.log --single-version-externally-managed install_data
+[1.539s] running egg_info
+[1.560s] writing ../../build/sorting_scene/sorting_scene.egg-info/PKG-INFO
+[1.560s] writing dependency_links to ../../build/sorting_scene/sorting_scene.egg-info/dependency_links.txt
+[1.560s] writing requirements to ../../build/sorting_scene/sorting_scene.egg-info/requires.txt
+[1.561s] writing top-level names to ../../build/sorting_scene/sorting_scene.egg-info/top_level.txt
+[1.597s] reading manifest file '../../build/sorting_scene/sorting_scene.egg-info/SOURCES.txt'
+[1.597s] adding license file 'LICENSE'
+[1.598s] writing manifest file '../../build/sorting_scene/sorting_scene.egg-info/SOURCES.txt'
+[1.598s] running build
+[1.598s] running build_py
+[1.599s] running install
+[1.605s] running install_lib
+[1.624s] running install_data
+[1.624s] running install_egg_info
+[1.645s] removing '/home/rcli/ws_sorting_final/install/sorting_scene/lib/python3.12/site-packages/sorting_scene-0.0.0-py3.12.egg-info' (and everything under it)
+[1.646s] Copying ../../build/sorting_scene/sorting_scene.egg-info to /home/rcli/ws_sorting_final/install/sorting_scene/lib/python3.12/site-packages/sorting_scene-0.0.0-py3.12.egg-info
+[1.646s] running install_scripts
+[1.766s] writing list of installed files to '/home/rcli/ws_sorting_final/build/sorting_scene/install.log'
+[1.793s] Invoked command in '/home/rcli/ws_sorting_final/src/sorting_scene' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/rcli/ws_sorting_final/build/sorting_scene/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rcli/ws_sorting_final/install/sorting_scene/lib/python3.12/site-packages:/home/rcli/ws_sorting_final/install/sorting_interfaces/lib/python3.12/site-packages:/home/rcli/ws_sorting_final/install/sorting_scene/lib/python3.12/site-packages:/home/rcli/ws_sorting_final/install/sorting_perception/lib/python3.12/site-packages:/home/rcli/ws_sorting_final/install/sorting_orchestrator/lib/python3.12/site-packages:/home/rcli/ws_sorting_final/install/sorting_executor_py/lib/python3.12/site-packages:/home/rcli/ws_sorting_final/install/sorting_gazebo/lib/python3.12/site-packages:/home/rcli/ws_sorting_final/install/sorting_bringup/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sorting_scene build --build-base /home/rcli/ws_sorting_final/build/sorting_scene/build install --record /home/rcli/ws_sorting_final/build/sorting_scene/install.log --single-version-externally-managed install_data

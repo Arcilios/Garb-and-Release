@@ -1,0 +1,27 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from sorting_interfaces/msg/SortTask.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/PoseStamped.idl"
+
+module sorting_interfaces {
+  module msg {
+    struct SortTask {
+      string object_id;
+
+      string class_name;
+
+      string target_bin;
+
+      geometry_msgs::msg::PoseStamped pick_pose;
+
+      geometry_msgs::msg::PoseStamped pregrasp_pose;
+
+      geometry_msgs::msg::PoseStamped lift_pose;
+
+      geometry_msgs::msg::PoseStamped place_pose;
+
+      geometry_msgs::msg::PoseStamped retreat_pose;
+    };
+  };
+};

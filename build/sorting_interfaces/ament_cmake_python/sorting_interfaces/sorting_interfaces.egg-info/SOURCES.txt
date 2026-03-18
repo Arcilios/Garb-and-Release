@@ -1,0 +1,11 @@
+setup.py
+sorting_interfaces/__init__.py
+sorting_interfaces.egg-info/PKG-INFO
+sorting_interfaces.egg-info/SOURCES.txt
+sorting_interfaces.egg-info/dependency_links.txt
+sorting_interfaces.egg-info/top_level.txt
+sorting_interfaces/msg/__init__.py
+sorting_interfaces/msg/_detected_object.py
+sorting_interfaces/msg/_detected_object_array.py
+sorting_interfaces/msg/_execution_status.py
+sorting_interfaces/msg/_sort_task.py

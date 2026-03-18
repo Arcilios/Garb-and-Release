@@ -1,0 +1,2 @@
+[console_scripts]
+real_perception = sorting_perception.real_perception:main
