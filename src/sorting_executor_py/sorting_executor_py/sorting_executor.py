@@ -151,19 +151,17 @@ class SortingExecutorNode(Node):
             self.execute_pose(msg.pregrasp_pose, 'pregrasp_pose')
             time.sleep(0.8)
 
-            # 3. 竖直下降到抓取点
             self.execute_pose(msg.pick_pose, 'pick_pose')
             time.sleep(0.5)
 
-            # 4. 闭合夹爪
+
             self.close_gripper()
             time.sleep(0.3)
 
-            # 5. Gazebo 物理 attach
             self.gazebo_attach(msg.object_id)
             time.sleep(0.4)
 
-            # 6. 从 cube 位置原地小抬升
+
             postgrasp_pose = PoseStamped()
             postgrasp_pose.header = msg.pick_pose.header
             postgrasp_pose.pose = msg.pick_pose.pose
@@ -177,26 +175,24 @@ class SortingExecutorNode(Node):
             self.execute_pose(postgrasp_pose, 'postgrasp_pose')
             time.sleep(0.5)
 
-            # 7. 再抬高
+
             # self.execute_pose(msg.lift_pose, 'lift_pose')
             # time.sleep(0.5)
             self.gazebo_detach(msg.object_id)
             self.open_gripper()
             time.sleep(0.4)
 
-            # 8. 去放置区
+
             self.execute_pose(msg.place_pose, 'place_pose')
             time.sleep(0.5)
 
-            # 9. 张开夹爪
             self.open_gripper()
             time.sleep(0.5)
 
-            # 10. Gazebo 物理 detach
+
             self.gazebo_detach(msg.object_id)
             time.sleep(0.4)
-
-            # 11. 回初始位姿
+0a
             self.execute_pose(self.home_pose, 'initial_home_pose')
 
             self.get_logger().info('Real execution flow finished.')
